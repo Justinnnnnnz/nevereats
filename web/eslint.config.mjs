@@ -1,4 +1,4 @@
 import {defineConfig, globalIgnores} from "eslint/config";
 import nextVitals from "eslint-config-next/core-web-vitals";
 import nextTs from "eslint-config-next/typescript";
-export default defineConfig([...nextVitals, ...nextTs, globalIgnores([".next/**", "next-env.d.ts"])]);
+export default defineConfig([...nextVitals, ...nextTs, globalIgnores([".next*/**", ".cache/**", ".cache.nosync/**", "public/sw*", "public/swe-worker*", "test-results/**", "playwright-report/**", "next-env.d.ts"])]);

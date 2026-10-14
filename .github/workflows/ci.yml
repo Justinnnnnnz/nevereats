@@ -40,10 +40,62 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m venv .venv
-      - run: .venv/bin/python -m pip install -e '.[dev]'
+      - run: .venv/bin/python -m pip install -r requirements.lock
+      - run: .venv/bin/python -m pip install --no-deps -e '.[dev]'
       - run: .venv/bin/ruff check .
       - run: .venv/bin/ruff format --check .
       - run: .venv/bin/alembic upgrade head
       - run: .venv/bin/python -m app.seed
       - run: .venv/bin/pytest
       - run: .venv/bin/python -m compileall -q app
+
+  e2e:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: nevereats
+          POSTGRES_PASSWORD: nevereats
+          POSTGRES_DB: nevereats
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U nevereats -d nevereats"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m venv api/.venv
+      - run: api/.venv/bin/python -m pip install -r api/requirements.lock
+      - run: api/.venv/bin/python -m pip install --no-deps -e './api[dev]'
+      - run: .venv/bin/alembic upgrade head && .venv/bin/python -m app.seed
+        working-directory: api
+      - run: npm ci
+        working-directory: web
+      - run: npx playwright install --with-deps chromium webkit
+        working-directory: web
+      - run: |
+          WEB_ORIGINS=http://localhost:3000,http://localhost:3002 api/.venv/bin/python -m uvicorn app.main:app --app-dir api --port 8000 &
+          for attempt in $(seq 1 30); do
+            curl -fsS http://localhost:8000/v1/health && break
+            sleep 1
+          done
+          curl -fsS http://localhost:8000/v1/health
+          npm --prefix web run test:e2e
+      - run: npm run build
+        working-directory: web
+      - run: |
+          npm run start -- --port 3002 &
+          for attempt in $(seq 1 30); do
+            curl -fsS http://localhost:3002 && break
+            sleep 1
+          done
+          npm run test:pwa
+        working-directory: web

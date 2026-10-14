@@ -1,0 +1,14 @@
+import {spawn} from 'node:child_process';
+import {mkdir,readFile} from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+import {chromium} from '@playwright/test';
+const cache=fileURLToPath(new URL('./.cache.nosync/',import.meta.url));await mkdir(`${cache}tmp`,{recursive:true});
+const report=`${cache}lighthouse-mobile.json`;
+const cli=fileURLToPath(new URL('./node_modules/lighthouse/cli/index.js',import.meta.url));
+const target=process.env.PERFORMANCE_URL||'http://localhost:3002';
+const child=spawn(process.execPath,[cli,target,'--only-categories=performance,accessibility,best-practices,seo','--output=json',`--output-path=${report}`,'--quiet','--chrome-flags=--headless --no-sandbox'],{stdio:'inherit',env:{...process.env,CHROME_PATH:process.env.CHROME_PATH||chromium.executablePath(),TMPDIR:`${cache}tmp`}});
+const code=await new Promise((resolve,reject)=>{child.on('error',reject);child.on('exit',resolve);});if(code!==0)throw new Error('Lighthouse execution failed');
+const result=JSON.parse(await readFile(report,'utf8'));
+const scores=Object.fromEntries(Object.entries(result.categories).map(([name,category])=>[name,Math.round(category.score*100)]));
+console.log(JSON.stringify({scores,version:result.lighthouseVersion,formFactor:result.configSettings.formFactor,warnings:result.runWarnings}));
+if(scores.performance<85)throw new Error(`Mobile performance ${scores.performance} is below required 85`);

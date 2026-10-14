@@ -4,12 +4,14 @@ from collections import Counter, defaultdict, deque
 from datetime import datetime, timezone
 from typing import Annotated
 from uuid import UUID
+from zoneinfo import ZoneInfo
 
 from fastapi import Depends, FastAPI, Header, HTTPException, Query, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from sqlmodel import Session, select
+from starlette.middleware.gzip import GZipMiddleware
 
 from app.catalog import item_detail, restaurant_detail
 from app.config import settings
@@ -19,6 +21,7 @@ from app.models import MenuItem, Order, OrderItem, Restaurant
 from app.schemas import OrderInput
 
 app = FastAPI(title="NeverEats API", version="0.2.0")
+app.add_middleware(GZipMiddleware, minimum_size=1000)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.web_origins,
@@ -52,6 +55,16 @@ async def validation_error(request: Request, exc: RequestValidationError):
     return JSONResponse(
         status_code=422,
         content={"error": {"code": "INVALID_REQUEST", "message": "请求字段不符合要求"}},
+    )
+
+
+@app.exception_handler(Exception)
+async def server_error(request: Request, exc: Exception):
+    return JSONResponse(
+        status_code=500,
+        content={
+            "error": {"code": "SERVER_ERROR", "message": "服务暂时不可用，请稍后重试"}
+        },
     )
 
 
@@ -192,12 +205,7 @@ def stats(s: DB, g: Guest):
     rows = s.exec(select(Order).where(Order.guest_id == g)).all()
     favorite = Counter(o.restaurant_id for o in rows).most_common(1)
     hours = Counter(
-        int(
-            o.placed_at.astimezone(
-                __import__("zoneinfo").ZoneInfo("America/Toronto")
-            ).hour
-        )
-        for o in rows
+        int(o.placed_at.astimezone(ZoneInfo("America/Toronto")).hour) for o in rows
     ).most_common(1)
     return {
         "saved_cents": sum(o.total_cents for o in rows),

@@ -62,3 +62,34 @@
 - 我的页面展示省钱、订单数、最常餐厅、Toronto 时区时段与未来入口、模拟体验说明。
 - 前端 lint/10 项 tests/build、后端 lint/9 项 tests/compileall 和服务响应检查通过。
 - 原生分享、图片下载、移动布局和完整浏览器流程将在 Milestone 7 验证；真实 iOS/Android/微信仍需人工检查。
+
+## Milestone 7 — 验证进行中，尚未 commit
+
+- Serwist manifest、原创 PNG icons、延后注册的 service worker 和离线 fallback；生产测试确认 active worker 与断网回退。
+- CSS dark mode、微信提示、reduced motion、页面切换；修复结账 fieldset 横向溢出、加载状态 ARIA、触控目标和品牌文字对比。
+- PostHog 关闭 autocapture/session recording，严格事件字段 allowlist；Sentry 客户端错误过滤；两者默认关闭且尊重 DNT。
+- 前端 lint、12 项 Vitest/RTL tests、production build，后端 lint、9 项 tests、compileall 全部通过。
+- Chromium/WebKit 四项浏览器测试通过：快捷地址、带选项菜品、空气支付、speed=60 追踪、送达金额、PNG 导出、再来一单、375/430px、微信/深色模式。分享图 3:4 比例断言通过，已视觉检查。
+- Mapbox Geocoding 和 Directions 使用本地环境 token 真实请求均 HTTP 200；未输出 token。
+- 首屏优化：禁用列表/底部导航预取，inlineCss，字体 optional，移除 SSR 隐藏首屏动画，service worker 不预缓存未使用字体。
+- 最新 Chrome 内置 Lighthouse mobile：Performance 60 / Accessibility 100 / Best Practices 100 / SEO 100。Performance 尚未达到 85，不能标记 milestone 完成。Lighthouse 提示现有 IndexedDB 可能影响结果；准备无痕窗口复测时 Mac 锁定，工具要求用户手动解锁。
+- 已安装 Playwright 的干净 Chromium、4x CPU 与 150ms/1.6Mbps 网络诊断：首屏 FCP 约 588ms，但这不是 Lighthouse 分数，不用于宣称达标。等待解锁继续排查和正式复测。
+- CI 增加 Postgres-backed browser tests 和 production PWA 检查；仅本地验证，未 push 或部署。
+
+### Milestone 7 继续验证
+
+- 新生成的 iCloud `routes.d 2.ts` 导致类型冲突；Next 开发/生产产物改为 `.next-dev.nosync` / `.next.nosync`，旧生成目录不参与 TypeScript 检查。lint、tests、build 和 Chromium/WebKit 流程重新通过。
+- Lighthouse 已在 SPEC 第 11 节列出，因此添加为项目 devDependency。独立 Chrome mobile 初测 57；标准 Noto Sans SC 400 字重后提升到 69，首屏仍为 22 个字体文件、约 636KB，未达 85。
+- 自动审批拒绝将 UI 字符集合发送到 Google Fonts 的 text API；该请求未执行。已改为只下载固定公开官方字体和 OFL 许可，项目内容不外传。
+- 已准备本机字体子集生成脚本。新增 fonttools/brotli 为 SPEC 未列出的开发工具，等待用户确认后才安装和运行。
+
+## Milestone 7 — 完成
+
+- 用户明确批准 fonttools/brotli，只安装在 api/.venv，作为可选 fonts 构建工具。使用固定公开官方 Noto Sans SC 源文件与 OFL，在本机生成 83,792-byte UI 字体；未发送项目文案给外部服务。
+- 中文仍 Noto Sans SC，英文/数字 Inter；UI 子集通过 next/font/local 加载，其他字符回退 next/font/google 的完整字体。源字体许可与离线生成脚本一并保留，源码/文案更新后可重生成。
+- 最终独立 Chrome mobile Lighthouse 13.5.0：Performance 88 / Accessibility 100 / Best Practices 100 / SEO 100，无运行警告。已达到 Performance ≥85；使用 CLI 后不再依赖桌面操作工具。
+- 前端 lint、12 项 tests、production build，后端 lint/format、9 项 tests/compileall 通过。Chromium/WebKit 4 项流程通过；最终 PWA/离线 fallback/375px与430px检查通过；导出 PNG 和3:4比例已检查。
+- favicon 404 已修复；Next 生成目录使用 nosync 解决 iCloud 重复类型；PostHog/Sentry 默认关闭且过滤隐私字段；CI 配置含 Postgres 和浏览器/PWA 检查。
+- 详细质量记录见 QUALITY.md；完整安装、启动、环境变量、架构和验证命令见 README.md。
+- 已知限制：真实设备需人工测试；汇率要人工更新；关闭 App 后无后台推送；限流为单进程内存；Next inlineCss 为实验选项；Starlette httpx 测试弃用警告不影响测试。
+- 最后只作本地 commit，不 push、不部署；环境文件、token、虚拟环境、缓存与构建产物均不进入 commit。

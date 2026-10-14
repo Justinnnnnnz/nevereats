@@ -57,7 +57,8 @@
     "replaceBody": "购物车只能保留一家餐厅的菜，是否清空后加入？",
     "replaceConfirm": "清空并加入",
     "cancel": "取消",
-    "added": "已加入购物车"
+    "added": "已加入购物车",
+    "quantityLimit": "同一份菜最多 99 件，请先调整购物车。"
   },
   "categories": {
     "all": "全部",
@@ -229,5 +230,15 @@
     "membership": "会员",
     "coupon": "优惠券",
     "soon": "即将上线"
+  },
+  "polish": {
+    "wechat": "建议用浏览器打开，体验更完整",
+    "offlineTitle": "快乐还在，网络暂时不在",
+    "offlineBody": "你可以打开已访问的页面。下单和刷新订单需要网络，连接恢复后再试。",
+    "retry": "重试",
+    "errorTitle": "暂时出了点小状况",
+    "errorBody": "请重试，或稍后回来。",
+    "notFound": "这份快乐还没找到",
+    "home": "回首页"
   }
 }

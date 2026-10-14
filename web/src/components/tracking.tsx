@@ -1,4 +1,5 @@
 "use client";
+import {track} from "@/lib/analytics";
 import {useEffect,useRef,useState} from 'react';
 import {useQuery} from '@tanstack/react-query';
 import {useTranslations} from 'next-intl';
@@ -13,8 +14,8 @@ export function Tracking({id,speed=1}:{id:string;speed?:number}){
  const t=useTranslations('tracking');const guest=useStore(s=>s.guestId);const asked=useStore(s=>s.notificationAsked);const q=useQuery({queryKey:['order',id],queryFn:()=>api<Order>(`/orders/${id}`),enabled:!!guest});const [now,setNow]=useState(0);const [toast,setToast]=useState('');const previous=useRef('');const order=q.data;
  useEffect(()=>{const tick=()=>setNow(Date.now());const timer=setInterval(tick,500);tick();return()=>clearInterval(timer);},[]);
  const status=order&&now?statusAt(order.placed_at,order.timeline,now,speed):'placed';
- useEffect(()=>{if(!order)return;if(previous.current&&previous.current!==status){const message=t(`statuses.${status}`);const timer=setTimeout(()=>setToast(message),0);const hide=setTimeout(()=>setToast(''),3500);if('Notification' in window&&Notification.permission==='granted')try{new Notification(t('notificationTitle'),{body:message});}catch{}previous.current=status;return()=>{clearTimeout(timer);clearTimeout(hide);};}previous.current=status;},[status,order,t]);
- if(q.isLoading||!guest||!now)return <div className="skeleton" aria-label={t('loading')}/>;
+ useEffect(()=>{if(!order)return;track("order_status_viewed",{status});if(previous.current&&previous.current!==status){const message=t(`statuses.${status}`);const timer=setTimeout(()=>setToast(message),0);const hide=setTimeout(()=>setToast(''),3500);if('Notification' in window&&Notification.permission==='granted')try{new Notification(t('notificationTitle'),{body:message});}catch{}previous.current=status;return()=>{clearTimeout(timer);clearTimeout(hide);};}previous.current=status;},[status,order,t]);
+ if(q.isLoading||!guest||!now)return <div className="skeleton" role="status" aria-label={t('loading')}/>;
  if(q.isError||!order)return <><p role="alert">{t('error')}</p><Button onClick={()=>q.refetch()}>{t('retry')}</Button></>;
  const elapsed=Math.max(0,(now-Date.parse(order.placed_at))/1000)*speed;const duration=order.timeline.at(-1)!.offset_seconds;const remaining=Math.max(0,Math.ceil((duration-elapsed)/speed));const assigned=order.timeline.find(s=>s.status==='courier_assigned')!.offset_seconds;
  if(status==='delivered')return <Delivered order={order}/>;

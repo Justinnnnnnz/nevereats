@@ -19,3 +19,18 @@ node_modules.nosync/
 
 .venv
 *.tsbuildinfo
+
+web/public/sw*
+web/public/swe-worker*
+.cache/
+playwright-report/
+test-results/
+web/lighthouse-*.json
+
+.cache
+.cache.nosync/
+
+.next-dev/
+
+.next.nosync/
+.next-dev.nosync/

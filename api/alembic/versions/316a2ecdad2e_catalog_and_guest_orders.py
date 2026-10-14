@@ -6,9 +6,8 @@ Revises:
 
 import sqlalchemy as sa
 import sqlmodel
-from sqlalchemy.dialects import postgresql
-
 from alembic import op
+from sqlalchemy.dialects import postgresql
 
 revision = "316a2ecdad2e"
 down_revision = None
