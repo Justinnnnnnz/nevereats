@@ -27,3 +27,12 @@
 - 用户批准添加 client_total_cents；请求禁止额外字段，地址不能传入后端。
 - 前后端 lint/tests/build（后端 compileall）通过；9 项后端测试含真实 Postgres 事务回滚集成测试。实际启动餐厅 API 返回 18 家餐厅。
 - 限流目前为单进程内存实现，多实例生产部署需要共享限流存储；部署仍只写文档。
+
+## Milestone 3 — 完成
+
+- Zustand guest UUID、地址和单餐厅购物车持久化，localStorage 异常时内存回退。API 使用 X-Guest-Id。
+- TanStack Query 餐厅浏览、客户端中英文菜品搜索、分类 chips、深夜/热门分区和菜单页。
+- Mapbox Geocoding autocomplete 偏向多伦多；无 token 或请求失败时保留四个快捷地址。所有地址数据仅在 client 状态中。
+- shadcn/Radix bottom sheet 有标题、focus trap 和关闭按钮；菜单选项、数量、人民币参考价格、跨餐厅确认和动画购物车 bar。
+- 前端 lint、4 项 tests 和 build、后端 lint/9 项 tests/compileall 通过；前后端服务启动响应正常。
+- 快捷“宿舍”和“公司”使用多伦多示例坐标；无需传入真实地址。真正的设备/浏览器兼容性在 Milestone 7 和人工测试中验证。

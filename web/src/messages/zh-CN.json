@@ -1,1 +1,76 @@
-{"brand":{"name":"NeverEats","tagline":"下单的快乐，一分钱不花。"},"tabs":{"home":"首页","search":"搜索","orders":"订单","profile":"我的"},"shell":{"eyebrow":"给想点外卖的你","homeTitle":"今晚的快乐，先从想象开始","homeBody":"餐厅浏览即将上线。先坐一会儿，给深夜的冲动留一点空间。","searchTitle":"发现下一份快乐","searchBody":"餐厅和菜品搜索即将上线。","ordersTitle":"你的想象力订单","ordersBody":"还没有订单，模拟下单功能即将上线。","profileTitle":"把快乐留下，把钱省下","profileBody":"省钱统计即将上线。","notice":"这是模拟体验：不会配送真实食物，也不会扣任何钱。","navigation":"主导航"}}
+{
+  "brand": {
+    "name": "NeverEats",
+    "tagline": "下单的快乐，一分钱不花。"
+  },
+  "tabs": {
+    "home": "首页",
+    "search": "搜索",
+    "orders": "订单",
+    "profile": "我的"
+  },
+  "shell": {
+    "eyebrow": "给想点外卖的你",
+    "homeTitle": "今晚的快乐，先从想象开始",
+    "homeBody": "餐厅浏览即将上线。先坐一会儿，给深夜的冲动留一点空间。",
+    "searchTitle": "发现下一份快乐",
+    "searchBody": "餐厅和菜品搜索即将上线。",
+    "ordersTitle": "你的想象力订单",
+    "ordersBody": "还没有订单，模拟下单功能即将上线。",
+    "profileTitle": "把快乐留下，把钱省下",
+    "profileBody": "省钱统计即将上线。",
+    "notice": "这是模拟体验：不会配送真实食物，也不会扣任何钱。",
+    "navigation": "主导航"
+  },
+  "browse": {
+    "close": "关闭",
+    "deliverTo": "送到",
+    "chooseAddress": "选择地址",
+    "where": "送到哪里？",
+    "addressSearch": "搜索多伦多地址",
+    "quickAddresses": "快捷地址",
+    "robarts": "📚 Robarts 图书馆",
+    "dorm": "🏠 宿舍",
+    "office": "🏢 公司",
+    "tower": "🗼 CN Tower",
+    "addressPrivacy": "地址只保存在你的浏览器中。",
+    "cartCount": "{count} 件",
+    "checkout": "去结算",
+    "homeTitle": "今晚，想吃点什么？",
+    "searchTitle": "寻找想象中的美味",
+    "searchLabel": "搜索餐厅和菜品",
+    "searchPlaceholder": "麻辣烫、奶茶、Poutine…",
+    "restaurantMeta": "★ {rating} · {min}–{max} 分钟 · 配送 {fee}",
+    "loading": "加载中",
+    "error": "暂时连接不上，请稍后重试。",
+    "retry": "重试",
+    "empty": "没有找到结果，换个关键词试试。",
+    "lateNight": "深夜也开",
+    "popular": "附近热门",
+    "cnyReference": "国内约 ¥{price}",
+    "options": "菜品选项",
+    "selectRange": "选择 {min}–{max} 项",
+    "increase": "增加数量",
+    "decrease": "减少数量",
+    "add": "加入购物车 · {price}",
+    "replaceTitle": "换一家餐厅？",
+    "replaceBody": "购物车只能保留一家餐厅的菜，是否清空后加入？",
+    "replaceConfirm": "清空并加入",
+    "cancel": "取消",
+    "added": "已加入购物车"
+  },
+  "categories": {
+    "all": "全部",
+    "chinese": "中餐",
+    "hotpot": "火锅",
+    "tea": "奶茶",
+    "bbq": "烧烤",
+    "korean": "韩餐",
+    "pho": "越南粉",
+    "burger": "汉堡",
+    "pizza": "披萨",
+    "local": "本地特色",
+    "dessert": "甜品",
+    "late": "宵夜"
+  }
+}

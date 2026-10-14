@@ -1,2 +1,2 @@
-import { Placeholder } from "@/components/placeholder";
-export default function Page() { return <Placeholder page="search" />; }
+import {Browse} from '@/components/browse';
+export default function Page(){return <Browse search/>;}
