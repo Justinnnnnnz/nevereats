@@ -18,7 +18,14 @@ from app.catalog import item_detail, restaurant_detail
 from app.config import settings
 from app.db import session
 from app.domain import current_status, fees, timeline, validate_options
-from app.models import MenuItem, Order, OrderItem, Promotion, Restaurant
+from app.models import (
+    GuestMembership,
+    MenuItem,
+    Order,
+    OrderItem,
+    Promotion,
+    Restaurant,
+)
 from app.schemas import OrderInput, PromotionCodeInput
 
 app = FastAPI(title="NeverEats API", version="0.2.0")
@@ -26,7 +33,7 @@ app.add_middleware(GZipMiddleware, minimum_size=1000)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.web_origins,
-    allow_methods=["GET", "POST"],
+    allow_methods=["GET", "POST", "DELETE"],
     allow_headers=["Content-Type", "X-Guest-Id"],
 )
 DB = Annotated[Session, Depends(session)]
@@ -143,10 +150,13 @@ def ensure_promotions(s: Session, g: UUID) -> list[Promotion]:
 def promotions(s: DB, g: Guest):
     now = datetime.now(timezone.utc)
     rows = ensure_promotions(s, g)
+    member_active = get_membership(s, g).active
     return [
         row.model_dump()
         for row in rows
-        if row.used_order_id is None and row.expires_at > now
+        if row.used_order_id is None
+        and row.expires_at > now
+        and not (member_active and row.kind == "free_delivery")
     ]
 
 
@@ -172,6 +182,41 @@ def claim_promotion(body: PromotionCodeInput, s: DB, g: Guest):
     s.commit()
     s.refresh(row)
     return row.model_dump()
+
+
+def get_membership(s: Session, g: UUID) -> GuestMembership:
+    membership = s.get(GuestMembership, g)
+    if not membership:
+        membership = GuestMembership(guest_id=g)
+        s.add(membership)
+        s.commit()
+        s.refresh(membership)
+    return membership
+
+
+@app.get("/v1/membership")
+def membership(s: DB, g: Guest):
+    return get_membership(s, g).model_dump()
+
+
+@app.post("/v1/membership")
+def activate_membership(s: DB, g: Guest):
+    member = get_membership(s, g)
+    member.active = True
+    s.add(member)
+    s.commit()
+    s.refresh(member)
+    return member.model_dump()
+
+
+@app.delete("/v1/membership")
+def cancel_membership(s: DB, g: Guest):
+    member = get_membership(s, g)
+    member.active = False
+    s.add(member)
+    s.commit()
+    s.refresh(member)
+    return member.model_dump()
 
 
 @app.post("/v1/orders", status_code=201)
@@ -219,6 +264,9 @@ def create_order(body: OrderInput, s: DB, g: Guest):
             or promotion.expires_at <= datetime.now(timezone.utc)
         ):
             raise HTTPException(409, "优惠已使用或已过期，请重新选择")
+        if promotion.kind == "free_delivery" and get_membership(s, g).active:
+            raise HTTPException(409, "会员已享有免配送费权益")
+    member_active = get_membership(s, g).active
     totals = fees(
         subtotal,
         r.delivery_fee_cents,
@@ -227,6 +275,7 @@ def create_order(body: OrderInput, s: DB, g: Guest):
         body.tip_custom_cents,
         settings.hst_percent,
         promotion.kind if promotion else None,
+        member_active,
     )
     if totals["total_cents"] != body.client_total_cents:
         raise HTTPException(409, "价格已变化，请重新确认总额")

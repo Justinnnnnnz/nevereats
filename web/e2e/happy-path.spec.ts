@@ -47,6 +47,9 @@ test('quick address → options → pretend pay → tracking → savings → reo
  await expect(page.getByText('Spadina 云朵麻辣烫',{exact:true})).toBeVisible();
  await page.getByRole('link',{name:'我的',exact:true}).click();await expect(page.getByText('累计省钱',{exact:true})).toBeVisible();
  await page.getByRole('link',{name:'优惠'}).click();await expect(page.getByText('免配送费',{exact:true})).toBeVisible();
+ await page.getByRole('link',{name:'返回我的'}).click();await page.getByRole('link',{name:'NeverEats+'}).click();
+ await page.getByRole('button',{name:'免费开通'}).click();await expect(page.getByRole('button',{name:'已开通'})).toBeDisabled();
+ page.once('dialog',dialog=>dialog.accept());await page.getByRole('button',{name:'取消会员'}).click();await expect(page.getByRole('button',{name:'免费开通'})).toBeVisible();
 });
 test('WeChat banner, dark mode and reduced motion',async({browser})=>{
  const context=await browser.newContext({userAgent:'Mozilla/5.0 MicroMessenger',colorScheme:'dark',reducedMotion:'reduce',viewport:{width:375,height:812}});const page=await context.newPage();await page.goto('/');await expect(page.getByText('建议用浏览器打开，体验更完整')).toBeVisible();await page.getByRole('button',{name:'🗼 CN Tower',exact:true}).click();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await context.close();

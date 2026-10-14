@@ -24,16 +24,21 @@ def fees(
     custom: int = 0,
     tax_rate: int = 13,
     promotion_kind: str | None = None,
+    member: bool = False,
 ) -> dict[str, int]:
     service = min(700, max(200, percent(subtotal, 15)))
+    if member:
+        service = percent(service, 50)
     small = 250 if subtotal < 1500 else 0
     rush = 299 if express else 0
     discount = 0
     if promotion_kind == "half_off" and subtotal >= 2000:
         discount = min(1500, percent(subtotal, 50))
     half_off_discount = discount
-    delivery_discount = delivery if promotion_kind == "free_delivery" else 0
-    if promotion_kind == "free_delivery":
+    delivery_discount = (
+        delivery if promotion_kind == "free_delivery" and not member else 0
+    )
+    if member or promotion_kind == "free_delivery":
         delivery = 0
     discount += delivery_discount
     tax = percent(

@@ -98,3 +98,8 @@ class Promotion(SQLModel, table=True):
         sa_column=Column(DateTime(timezone=True), nullable=False)
     )
     used_order_id: UUID | None = Field(default=None, index=True)
+
+
+class GuestMembership(SQLModel, table=True):
+    guest_id: UUID = Field(primary_key=True)
+    active: bool = False

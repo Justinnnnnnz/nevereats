@@ -163,3 +163,18 @@ def test_guest_promotions_claim_apply_and_disappear_after_order(client):
         row["id"] for row in client.get("/v1/promotions", headers=headers).json()
     }
     assert client.post("/v1/orders", json=body, headers=headers).status_code == 409
+
+
+def test_membership_hides_free_delivery_promotion(client):
+    headers = {"X-Guest-Id": str(uuid4())}
+    client.get("/v1/promotions", headers=headers)
+    assert client.get("/v1/membership", headers=headers).json()["active"] is False
+    activated = client.post("/v1/membership", headers=headers)
+    assert activated.json()["active"] is True
+    assert {
+        row["kind"] for row in client.get("/v1/promotions", headers=headers).json()
+    } == {"half_off"}
+    assert client.delete("/v1/membership", headers=headers).json()["active"] is False
+    assert {
+        row["kind"] for row in client.get("/v1/promotions", headers=headers).json()
+    } == {"half_off", "free_delivery"}

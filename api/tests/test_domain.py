@@ -65,3 +65,11 @@ def test_free_delivery_zeros_delivery_and_recalculates_tax():
     result = fees(5000, 399, False, "0", promotion_kind="free_delivery")
     assert result["delivery_fee_cents"] == 0
     assert result["discount_cents"] == 399
+
+
+def test_membership_benefits_apply_before_half_off_promotion():
+    result = fees(5000, 399, False, "0", promotion_kind="half_off", member=True)
+    assert result["delivery_fee_cents"] == 0
+    assert result["service_fee_cents"] == 350
+    assert result["discount_cents"] == 1500
+    assert result["total_cents"] == 4351
