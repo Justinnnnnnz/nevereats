@@ -93,3 +93,11 @@
 - 详细质量记录见 QUALITY.md；完整安装、启动、环境变量、架构和验证命令见 README.md。
 - 已知限制：真实设备需人工测试；汇率要人工更新；关闭 App 后无后台推送；限流为单进程内存；Next inlineCss 为实验选项；Starlette httpx 测试弃用警告不影响测试。
 - 最后只作本地 commit，不 push、不部署；环境文件、token、虚拟环境、缓存与构建产物均不进入 commit。
+
+## 同 Wi-Fi 手机预览
+
+- 用户要求在同一 Wi-Fi 手机上直接查看，前端监听局域网端口 3003；通过 /v1 同源代理 API，后端/数据库仍只监听本机。
+- guest UUID 使用 crypto.getRandomValues 的 RFC4122 v4 回退，支持非 secure-context 的 HTTP 局域网浏览器。
+- 不修改 .env.local；构建/启动时通过进程环境设置 NEXT_PUBLIC_API_URL=/v1。
+- 前端 lint、13 项 tests、production build，后端 lint/9 项 tests 通过；实际局域网 IP 浏览器验证地址、菜单、选项、结账和同源创建订单成功。
+- HTTP 预览不保证浏览器通知、PWA 安装或原生分享；这些能力需要 HTTPS。预览需要 Mac 保持运行，未部署公网或 push。

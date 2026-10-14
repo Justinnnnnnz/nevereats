@@ -89,7 +89,7 @@ Serwist 使用 webpack 构建，页面加载后约 5 秒注册 service worker，
 
 | App | 变量 | 用途 |
 | --- | --- | --- |
-| web | NEXT_PUBLIC_API_URL | 默认 http://localhost:8000/v1 |
+| web | NEXT_PUBLIC_API_URL | 默认 /v1，同源代理到本机 API |
 | web | NEXT_PUBLIC_MAPBOX_TOKEN | 本地填写公开 Mapbox token，代码只读取环境变量 |
 | web | NEXT_PUBLIC_HST_PERCENT | 默认 13；必须与 API HST_PERCENT 一致 |
 | web | NEXT_PUBLIC_CAD_TO_CNY | 默认 5.0；**请更新为当前汇率**，UI 显示“约” |
@@ -200,3 +200,14 @@ web → Vercel；api → Railway 或 Fly.io；数据库 → Supabase Postgres。
 ## 停止与清理
 
 前后端终端按 Ctrl+C；根目录运行 `docker compose stop postgres`。数据库数据保存在 Docker volume。不要运行 `down -v`，除非确实想删除本地数据。
+
+## 同 Wi-Fi 手机预览
+
+API 保持监听 127.0.0.1:8000，前端通过 /v1 同源代理，无需将 API 或数据库开放到局域网。前端执行：
+
+```sh
+NEXT_PUBLIC_API_URL=/v1 npm run build
+NEXT_PUBLIC_API_URL=/v1 npm run start -- --hostname 0.0.0.0 --port 3003
+```
+
+手机与 Mac 在同一 Wi-Fi，用 Mac 的局域网 IP 加 :3003 打开。Mac 必须保持运行。HTTP 局域网预览支持模拟下单，但浏览器通知、PWA 安装和原生分享可能需要 HTTPS。

@@ -2,6 +2,11 @@
 import { create } from "zustand";
 import { createJSONStorage, persist, type StateStorage } from "zustand/middleware";
 import type {Address, CartLine, Restaurant} from "./types";
+export function guestUuid(){
+ if(typeof crypto.randomUUID==='function')return crypto.randomUUID();
+ const bytes=crypto.getRandomValues(new Uint8Array(16));bytes[6]=(bytes[6]&15)|64;bytes[8]=(bytes[8]&63)|128;
+ const hex=Array.from(bytes,b=>b.toString(16).padStart(2,'0')).join('');return `${hex.slice(0,8)}-${hex.slice(8,12)}-${hex.slice(12,16)}-${hex.slice(16,20)}-${hex.slice(20)}`;
+}
 const memory = new Map<string,string>();
 const storage: StateStorage = {
  getItem: name => { try { return localStorage.getItem(name) ?? memory.get(name) ?? null; } catch { return memory.get(name) ?? null; } },
@@ -11,7 +16,7 @@ const storage: StateStorage = {
 type State={guestId:string;address:Address|null;restaurant:Restaurant|null;cart:CartLine[];notificationAsked:boolean;routes:Record<string,{origin:[number,number];destination:[number,number];geometry:[number,number][]}>;initGuest:()=>void;setAddress:(a:Address)=>void;add:(r:Restaurant,line:CartLine,replace?:boolean)=>boolean;clear:()=>void;setQuantity:(key:string,n:number)=>void;setNotificationAsked:()=>void;setRoute:(id:string,route:State['routes'][string])=>void;};
 export const useStore=create<State>()(persist((set,get)=>({
  guestId:"",address:null,restaurant:null,cart:[],notificationAsked:false,routes:{},
- initGuest:()=>{if(!/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(get().guestId)) set({guestId:crypto.randomUUID()});},
+ initGuest:()=>{if(!/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(get().guestId)) set({guestId:guestUuid()});},
  setAddress:address=>set({address}),
  add:(restaurant,line,replace=false)=>{const s=get();if(s.restaurant&&s.restaurant.id!==restaurant.id&&s.cart.length&&!replace)return false;const cart=replace?[]:s.cart.map(x=>({...x}));const found=cart.find(x=>x.key===line.key);if(found) {if(found.quantity+line.quantity>99)return false;found.quantity+=line.quantity;}else cart.push(line);set({restaurant,cart});return true;},
  clear:()=>set({cart:[],restaurant:null}),
