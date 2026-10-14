@@ -1,5 +1,56 @@
 [
- {"subtotal":1000,"delivery":399,"express":false,"tip_mode":"18","custom":0,"expected":{"subtotal_cents":1000,"delivery_fee_cents":399,"service_fee_cents":200,"small_order_fee_cents":250,"express_fee_cents":0,"tax_cents":240,"tip_cents":180,"total_cents":2269}},
- {"subtotal":1500,"delivery":299,"express":true,"tip_mode":"0","custom":0,"expected":{"subtotal_cents":1500,"delivery_fee_cents":299,"service_fee_cents":225,"small_order_fee_cents":0,"express_fee_cents":299,"tax_cents":302,"tip_cents":0,"total_cents":2625}},
- {"subtotal":10000,"delivery":399,"express":false,"tip_mode":"custom","custom":123,"expected":{"subtotal_cents":10000,"delivery_fee_cents":399,"service_fee_cents":700,"small_order_fee_cents":0,"express_fee_cents":0,"tax_cents":1443,"tip_cents":123,"total_cents":12665}}
+  {
+    "subtotal": 1000,
+    "delivery": 399,
+    "express": false,
+    "tip_mode": "18",
+    "custom": 0,
+    "expected": {
+      "subtotal_cents": 1000,
+      "delivery_fee_cents": 399,
+      "service_fee_cents": 200,
+      "small_order_fee_cents": 250,
+      "express_fee_cents": 0,
+      "tax_cents": 240,
+      "tip_cents": 180,
+      "total_cents": 2269,
+      "discount_cents": 0
+    }
+  },
+  {
+    "subtotal": 1500,
+    "delivery": 299,
+    "express": true,
+    "tip_mode": "0",
+    "custom": 0,
+    "expected": {
+      "subtotal_cents": 1500,
+      "delivery_fee_cents": 299,
+      "service_fee_cents": 225,
+      "small_order_fee_cents": 0,
+      "express_fee_cents": 299,
+      "tax_cents": 302,
+      "tip_cents": 0,
+      "total_cents": 2625,
+      "discount_cents": 0
+    }
+  },
+  {
+    "subtotal": 10000,
+    "delivery": 399,
+    "express": false,
+    "tip_mode": "custom",
+    "custom": 123,
+    "expected": {
+      "subtotal_cents": 10000,
+      "delivery_fee_cents": 399,
+      "service_fee_cents": 700,
+      "small_order_fee_cents": 0,
+      "express_fee_cents": 0,
+      "tax_cents": 1443,
+      "tip_cents": 123,
+      "total_cents": 12665,
+      "discount_cents": 0
+    }
+  }
 ]

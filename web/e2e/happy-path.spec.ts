@@ -18,10 +18,15 @@ test('quick address → options → pretend pay → tracking → savings → reo
  await expect(page.getByText('这是模拟体验：不会配送真实食物，也不会扣任何钱。')).toBeVisible();
  await page.getByRole('button',{name:'0%',exact:true}).click();
  await expect(page.getByText('😢 骑手：没关系的…（假装不在意）')).toBeVisible();
- await page.getByLabel('优惠码',{exact:true}).fill('NEVER');
- await page.getByRole('button',{name:'试试优惠码'}).evaluate(el=>el.scrollIntoView({block:'center'}));
- await page.getByRole('button',{name:'试试优惠码'}).click();
- await expect(page.getByText('这个券已过期（它从来就没生效过）')).toBeVisible();
+ await page.getByRole('button',{name:'Promotions / 优惠'}).click();
+ await page.getByLabel('优惠码').fill('NEVER');
+ await page.getByRole('button',{name:'领取优惠'}).click();
+ await expect(page.getByRole('alert')).toHaveText('优惠码无效，请检查后重试。');
+ await page.getByLabel('优惠码').fill('NEVEREATS50');
+ await page.getByRole('button',{name:'领取优惠'}).click();
+ await expect(page.getByRole('button',{name:/菜品 5 折 满 \$20/}).last()).toHaveAttribute('aria-pressed','true');
+ await page.getByRole('button',{name:'关闭'}).click();
+ await expect(page.getByRole('button',{name:/菜品 5 折.*已应用/})).toBeVisible();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  await page.getByRole('button',{name:/空气支付 CA/}).evaluate(el=>el.scrollIntoView({block:'center'}));
  await page.getByRole('button',{name:/空气支付 CA/}).click();
@@ -41,6 +46,7 @@ test('quick address → options → pretend pay → tracking → savings → reo
  await page.getByRole('button',{name:'再来一单（假的）'}).click();await page.waitForURL('**/checkout');
  await expect(page.getByText('Spadina 云朵麻辣烫',{exact:true})).toBeVisible();
  await page.getByRole('link',{name:'我的',exact:true}).click();await expect(page.getByText('累计省钱',{exact:true})).toBeVisible();
+ await page.getByRole('link',{name:'优惠'}).click();await expect(page.getByText('免配送费',{exact:true})).toBeVisible();
 });
 test('WeChat banner, dark mode and reduced motion',async({browser})=>{
  const context=await browser.newContext({userAgent:'Mozilla/5.0 MicroMessenger',colorScheme:'dark',reducedMotion:'reduce',viewport:{width:375,height:812}});const page=await context.newPage();await page.goto('/');await expect(page.getByText('建议用浏览器打开，体验更完整')).toBeVisible();await page.getByRole('button',{name:'🗼 CN Tower',exact:true}).click();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await context.close();

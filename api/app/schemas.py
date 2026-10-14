@@ -1,4 +1,5 @@
 from typing import Literal
+from uuid import UUID
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -18,3 +19,9 @@ class OrderInput(BaseModel):
     tip_custom_cents: int = Field(default=0, ge=0, le=100000)
     express: bool = False
     client_total_cents: int = Field(ge=0)
+    promotion_id: UUID | None = None
+
+
+class PromotionCodeInput(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    code: str = Field(min_length=1, max_length=40)

@@ -2,7 +2,7 @@ import random
 import time
 import unicodedata
 from collections import Counter, defaultdict, deque
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Annotated
 from uuid import UUID
 from zoneinfo import ZoneInfo
@@ -18,8 +18,8 @@ from app.catalog import item_detail, restaurant_detail
 from app.config import settings
 from app.db import session
 from app.domain import current_status, fees, timeline, validate_options
-from app.models import MenuItem, Order, OrderItem, Restaurant
-from app.schemas import OrderInput
+from app.models import MenuItem, Order, OrderItem, Promotion, Restaurant
+from app.schemas import OrderInput, PromotionCodeInput
 
 app = FastAPI(title="NeverEats API", version="0.2.0")
 app.add_middleware(GZipMiddleware, minimum_size=1000)
@@ -126,6 +126,54 @@ def order_detail(s: Session, order: Order) -> dict:
     }
 
 
+def ensure_promotions(s: Session, g: UUID) -> list[Promotion]:
+    rows = s.exec(select(Promotion).where(Promotion.guest_id == g)).all()
+    if not rows:
+        expires = datetime.now(timezone.utc) + timedelta(days=90)
+        rows = [
+            Promotion(guest_id=g, kind="half_off", expires_at=expires),
+            Promotion(guest_id=g, kind="free_delivery", expires_at=expires),
+        ]
+        s.add_all(rows)
+        s.commit()
+    return rows
+
+
+@app.get("/v1/promotions")
+def promotions(s: DB, g: Guest):
+    now = datetime.now(timezone.utc)
+    rows = ensure_promotions(s, g)
+    return [
+        row.model_dump()
+        for row in rows
+        if row.used_order_id is None and row.expires_at > now
+    ]
+
+
+@app.post("/v1/promotions/claim")
+def claim_promotion(body: PromotionCodeInput, s: DB, g: Guest):
+    ensure_promotions(s, g)
+    if body.code.strip().upper() != "NEVEREATS50":
+        raise HTTPException(422, "优惠码无效")
+    existing = s.exec(
+        select(Promotion).where(
+            Promotion.guest_id == g, Promotion.code == "NEVEREATS50"
+        )
+    ).first()
+    if existing:
+        raise HTTPException(409, "此优惠码已领取")
+    row = Promotion(
+        guest_id=g,
+        kind="half_off",
+        code="NEVEREATS50",
+        expires_at=datetime.now(timezone.utc) + timedelta(days=90),
+    )
+    s.add(row)
+    s.commit()
+    s.refresh(row)
+    return row.model_dump()
+
+
 @app.post("/v1/orders", status_code=201)
 def create_order(body: OrderInput, s: DB, g: Guest):
     now = time.monotonic()
@@ -161,6 +209,16 @@ def create_order(body: OrderInput, s: DB, g: Guest):
                 selected_options=options,
             )
         )
+    promotion = None
+    if body.promotion_id:
+        promotion = s.get(Promotion, body.promotion_id)
+        if (
+            not promotion
+            or promotion.guest_id != g
+            or promotion.used_order_id is not None
+            or promotion.expires_at <= datetime.now(timezone.utc)
+        ):
+            raise HTTPException(409, "优惠已使用或已过期，请重新选择")
     totals = fees(
         subtotal,
         r.delivery_fee_cents,
@@ -168,6 +226,7 @@ def create_order(body: OrderInput, s: DB, g: Guest):
         body.tip_mode,
         body.tip_custom_cents,
         settings.hst_percent,
+        promotion.kind if promotion else None,
     )
     if totals["total_cents"] != body.client_total_cents:
         raise HTTPException(409, "价格已变化，请重新确认总额")
@@ -177,11 +236,15 @@ def create_order(body: OrderInput, s: DB, g: Guest):
         express=body.express,
         **totals,
         courier_id=f"courier-{random.randrange(10)}",
+        promotion_id=promotion.id if promotion else None,
         placed_at=datetime.now(timezone.utc),
         timeline=timeline(body.express),
     )
     s.add(order)
     s.flush()
+    if promotion:
+        promotion.used_order_id = order.id
+        s.add(promotion)
     for snapshot in snapshots:
         s.add(OrderItem(order_id=order.id, **snapshot))
     s.commit()

@@ -6,3 +6,5 @@ export type Address = {name:string; coordinates:[number,number]};
 export type CartLine = {key:string; item:MenuItem; options:Option[]; quantity:number};
 export type Order = {id:string;restaurant_id:string;restaurant:Restaurant;placed_at:string;timeline:{status:string;offset_seconds:number}[];status:string;courier_id:string;subtotal_cents:number;delivery_fee_cents:number;service_fee_cents:number;small_order_fee_cents:number;express_fee_cents:number;tax_cents:number;tip_cents:number;total_cents:number;items:{menu_item_id:string;name_zh_snapshot:string;quantity:number;unit_price_cents:number;selected_options:Option[]}[]};
 export type Stats={saved_cents:number;order_count:number;favorite_restaurant:string|null;top_hour:number|null};
+export type Promotion={id:string;guest_id:string;kind:'half_off'|'free_delivery';code:string|null;expires_at:string;used_order_id:string|null};
+export type Membership={guest_id:string;active:boolean};

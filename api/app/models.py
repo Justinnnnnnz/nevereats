@@ -70,6 +70,8 @@ class Order(SQLModel, table=True):
     tax_cents: int
     tip_cents: int
     total_cents: int
+    discount_cents: int = 0
+    promotion_id: UUID | None = Field(default=None, foreign_key="promotion.id")
     courier_id: str
     placed_at: datetime = Field(
         sa_column=Column(DateTime(timezone=True), nullable=False)
@@ -85,3 +87,14 @@ class OrderItem(SQLModel, table=True):
     quantity: int
     unit_price_cents: int
     selected_options: list[dict] = Field(sa_column=Column(JSONB, nullable=False))
+
+
+class Promotion(SQLModel, table=True):
+    id: UUID = Field(default_factory=uuid4, primary_key=True)
+    guest_id: UUID = Field(index=True)
+    kind: str
+    code: str | None = None
+    expires_at: datetime = Field(
+        sa_column=Column(DateTime(timezone=True), nullable=False)
+    )
+    used_order_id: UUID | None = Field(default=None, index=True)

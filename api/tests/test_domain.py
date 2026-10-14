@@ -52,3 +52,16 @@ def test_option_validation():
     for ids in [[], ["a", "b"], ["a", "a"], ["other"]]:
         with pytest.raises(ValueError):
             validate_options(groups, ids)
+
+
+def test_half_off_has_a_twenty_dollar_minimum_and_fifteen_dollar_cap():
+    below_minimum = fees(1999, 399, False, "0", promotion_kind="half_off")
+    eligible = fees(5000, 399, False, "0", promotion_kind="half_off")
+    assert below_minimum["discount_cents"] == 0
+    assert eligible["discount_cents"] == 1500
+
+
+def test_free_delivery_zeros_delivery_and_recalculates_tax():
+    result = fees(5000, 399, False, "0", promotion_kind="free_delivery")
+    assert result["delivery_fee_cents"] == 0
+    assert result["discount_cents"] == 399
