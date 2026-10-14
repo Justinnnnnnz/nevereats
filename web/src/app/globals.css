@@ -12,3 +12,5 @@ button { color:inherit; } .wechat-notice { margin:0 16px; padding:12px; border-r
 html { scroll-padding-block:100px; } button,input,a { scroll-margin-block:100px; } fieldset { min-inline-size:0; } .chips { max-width:100%; }
 .chips button { min-height:44px; } input:not([type=radio]):not([type=checkbox]) { font-size:16px; }
 .brand span { color:#b34a00; } @media (prefers-color-scheme:dark) { .brand span { color:#ff9c55; } }
+
+.food-art { position:relative; overflow:hidden; } .menu-item>.food-art { flex:0 0 72px; }

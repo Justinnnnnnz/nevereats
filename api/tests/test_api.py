@@ -25,6 +25,16 @@ def test_order_privacy_and_validation(client):
     headers = {"X-Guest-Id": str(uuid4())}
     restaurants = client.get("/v1/restaurants", headers=headers).json()
     assert len(restaurants) == 18
+    images = [
+        entity["image_url"]
+        for restaurant in restaurants
+        for entity in [
+            restaurant,
+            *[item for section in restaurant["sections"] for item in section["items"]],
+        ]
+    ]
+    assert len(images) == len(set(images)) == 126
+    assert all(url.startswith("/images/catalog/") for url in images)
     r = restaurants[0]
     item = r["sections"][0]["items"][0]
     options = [g["options"][0]["id"] for g in item["option_groups"] if g["min_select"]]

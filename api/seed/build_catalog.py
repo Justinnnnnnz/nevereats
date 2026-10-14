@@ -1,4 +1,4 @@
-"""Generate original fictional catalog; no restaurant images or real names."""
+"""Generate fictional catalog with individual local food assets."""
 
 import json
 from pathlib import Path
@@ -285,7 +285,7 @@ for idx, (slug, zh, en, category, hood, names) in enumerate(entries):
         cuisine="中餐" if chinese else category,
         category=category,
         neighborhood=hood,
-        image_url="",
+        image_url=f"/images/catalog/{slug}.webp",
         rating=round(4.5 + idx % 4 * 0.1, 1),
         eta_min=15 + idx % 3 * 5,
         eta_max=25 + idx % 3 * 5,
@@ -305,7 +305,7 @@ for idx, (slug, zh, en, category, hood, names) in enumerate(entries):
                 description_zh="虚构菜单，认真满足你的想象。",
                 price_cents=(1299 + j * 150 if j < 3 else 499 + (j - 3) * 200),
                 cny_reference_price=22 + j * 3 if chinese else None,
-                image_url="",
+                image_url=f"/images/catalog/{slug}-item-{j}.webp",
                 popular=j == 0,
                 option_groups=[],
             )

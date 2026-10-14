@@ -7,7 +7,11 @@ test('quick address → options → pretend pay → tracking → savings → reo
  await page.getByRole('button',{name:'📚 Robarts 图书馆',exact:true}).click();
  for(const width of [375,430]){await page.setViewportSize({width,height:850});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);}
  await page.getByRole('link').filter({has:page.getByRole('heading',{name:'Spadina 云朵麻辣烫',exact:true})}).first().click();
+ await page.waitForURL('**/restaurants/spadina-cloud');
+ await expect(page.locator('.hero').getByRole('img',{name:'Spadina 云朵麻辣烫招牌餐品'})).toBeVisible();
+ await expect.poll(()=>page.locator('.menu-item img').evaluateAll(images=>images.length===6&&images.every(image=>(image as HTMLImageElement).complete&&(image as HTMLImageElement).naturalWidth>0))).toBe(true);
  await page.getByRole('button',{name:/麻辣烫 Malatang/}).click();
+ await expect(page.getByRole('dialog').getByRole('img',{name:'麻辣烫',exact:true})).toBeVisible();
  await page.getByLabel('大份').check();
  await page.getByRole('button',{name:/加入购物车 ·/}).click();
  await page.getByRole('link',{name:/去结算/}).click();

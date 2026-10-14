@@ -1,0 +1,506 @@
+[
+  {
+    "id": "spadina-cloud",
+    "prompt": "Use case: product-mockup. Asset type: food delivery restaurant hero image. Subject: original fictional Chinese malatang shop signature feast: a large ceramic bowl of spicy Sichuan malatang broth with beef, tofu, leafy vegetables and noodles, small sesame vegetable side on a warm cream table. Style: natural appetizing food photography, warm soft daylight, three-quarter overhead composition, no people, no text, no logos, no watermark. Landscape image."
+  },
+  {
+    "id": "spadina-cloud-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Malatang (麻辣烫), an accurate appetizing individual dish from Cloud Malatang's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "spadina-cloud-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Tomato soup (番茄烫), an accurate appetizing individual dish from Cloud Malatang's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "spadina-cloud-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Mushroom soup (菌菇烫), an accurate appetizing individual dish from Cloud Malatang's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "spadina-cloud-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Beef bowl (牛肉烫), an accurate appetizing individual dish from Cloud Malatang's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "spadina-cloud-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Sour noodles (酸辣粉), an accurate appetizing individual dish from Cloud Malatang's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "spadina-cloud-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Sesame bowl (芝麻酱拌菜), an accurate appetizing individual dish from Cloud Malatang's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "north-snail",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Northern Snail Noodles restaurant, featuring Snail noodles, Dry noodles, Bamboo noodles. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "north-snail-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Snail noodles (招牌螺蛳粉), an accurate appetizing individual dish from Northern Snail Noodles's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "north-snail-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Dry noodles (干拌螺蛳粉), an accurate appetizing individual dish from Northern Snail Noodles's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "north-snail-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Bamboo noodles (酸笋粉), an accurate appetizing individual dish from Northern Snail Noodles's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "north-snail-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Beef noodles (牛肉粉), an accurate appetizing individual dish from Northern Snail Noodles's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "north-snail-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Fried egg (炸蛋), an accurate appetizing individual dish from Northern Snail Noodles's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "north-snail-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Tofu skin (腐竹豆皮), an accurate appetizing individual dish from Northern Snail Noodles's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "morning-pocket",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Morning Pocket restaurant, featuring Jianbing, Egg crepe, Beef crepe. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "morning-pocket-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Jianbing (经典煎饼), an accurate appetizing individual dish from Morning Pocket's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "morning-pocket-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Egg crepe (鸡蛋饼), an accurate appetizing individual dish from Morning Pocket's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "morning-pocket-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Beef crepe (牛肉煎饼), an accurate appetizing individual dish from Morning Pocket's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "morning-pocket-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Soy milk (豆浆), an accurate appetizing individual dish from Morning Pocket's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "morning-pocket-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Millet congee (小米粥), an accurate appetizing individual dish from Morning Pocket's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "morning-pocket-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Fried dough (油条), an accurate appetizing individual dish from Morning Pocket's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pepper-window",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Pepper Window restaurant, featuring Mapo tofu, Kung pao chicken, Twice cooked pork. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pepper-window-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Mapo tofu (麻婆豆腐), an accurate appetizing individual dish from Pepper Window's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pepper-window-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Kung pao chicken (宫保鸡丁), an accurate appetizing individual dish from Pepper Window's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pepper-window-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Twice cooked pork (回锅肉), an accurate appetizing individual dish from Pepper Window's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pepper-window-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Eggplant (鱼香茄子), an accurate appetizing individual dish from Pepper Window's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pepper-window-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Greens (蒜蓉菜心), an accurate appetizing individual dish from Pepper Window's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pepper-window-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Rice (米饭), an accurate appetizing individual dish from Pepper Window's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "snow-skewers",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Snow Skewers restaurant, featuring Lamb skewers, Beef skewers, Chicken wings. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "snow-skewers-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Lamb skewers (羊肉串), an accurate appetizing individual dish from Snow Skewers's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "snow-skewers-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Beef skewers (牛肉串), an accurate appetizing individual dish from Snow Skewers's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "snow-skewers-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Chicken wings (烤鸡翅), an accurate appetizing individual dish from Snow Skewers's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "snow-skewers-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Eggplant (烤茄子), an accurate appetizing individual dish from Snow Skewers's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "snow-skewers-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Mushrooms (烤蘑菇), an accurate appetizing individual dish from Snow Skewers's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "snow-skewers-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Toasted bun (烤馒头), an accurate appetizing individual dish from Snow Skewers's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "hotpot-orbit",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Hotpot Orbit restaurant, featuring Hotpot set, Beef pot, Mushroom pot. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "hotpot-orbit-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Hotpot set (双人火锅), an accurate appetizing individual dish from Hotpot Orbit's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "hotpot-orbit-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Beef pot (牛肉锅), an accurate appetizing individual dish from Hotpot Orbit's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "hotpot-orbit-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Mushroom pot (菌菇锅), an accurate appetizing individual dish from Hotpot Orbit's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "hotpot-orbit-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Tripe (毛肚), an accurate appetizing individual dish from Hotpot Orbit's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "hotpot-orbit-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Luncheon meat (午餐肉), an accurate appetizing individual dish from Hotpot Orbit's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "hotpot-orbit-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Vegetable set (蔬菜拼盘), an accurate appetizing individual dish from Hotpot Orbit's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "congee-clock",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Congee Clock restaurant, featuring Congee, Rice rolls, Beef noodles. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "congee-clock-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Congee (皮蛋瘦肉粥), an accurate appetizing individual dish from Congee Clock's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "congee-clock-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Rice rolls (牛肉肠粉), an accurate appetizing individual dish from Congee Clock's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "congee-clock-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Beef noodles (干炒牛河), an accurate appetizing individual dish from Congee Clock's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "congee-clock-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Wonton noodles (云吞面), an accurate appetizing individual dish from Congee Clock's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "congee-clock-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Turnip cake (萝卜糕), an accurate appetizing individual dish from Congee Clock's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "congee-clock-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Plain congee (清粥), an accurate appetizing individual dish from Congee Clock's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tea-moon",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Moon Pocket Tea restaurant, featuring Brown sugar tea, Jasmine tea, Taro tea. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tea-moon-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Brown sugar tea (黑糖珍珠奶茶), an accurate appetizing individual dish from Moon Pocket Tea's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tea-moon-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Jasmine tea (茉莉奶绿), an accurate appetizing individual dish from Moon Pocket Tea's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tea-moon-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Taro tea (芋泥奶茶), an accurate appetizing individual dish from Moon Pocket Tea's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tea-moon-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Lemon tea (柠檬茶), an accurate appetizing individual dish from Moon Pocket Tea's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tea-moon-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Red bean tea (红豆奶茶), an accurate appetizing individual dish from Moon Pocket Tea's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tea-moon-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Peach tea (桃桃果茶), an accurate appetizing individual dish from Moon Pocket Tea's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "shawarma-sunset",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Sunset Shawarma restaurant, featuring Chicken shawarma, Beef shawarma, Falafel wrap. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "shawarma-sunset-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Chicken shawarma (鸡肉卷), an accurate appetizing individual dish from Sunset Shawarma's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "shawarma-sunset-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Beef shawarma (牛肉卷), an accurate appetizing individual dish from Sunset Shawarma's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "shawarma-sunset-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Falafel wrap (鹰嘴豆卷), an accurate appetizing individual dish from Sunset Shawarma's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "shawarma-sunset-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Chicken rice (鸡肉饭), an accurate appetizing individual dish from Sunset Shawarma's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "shawarma-sunset-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Hummus (鹰嘴豆泥), an accurate appetizing individual dish from Sunset Shawarma's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "shawarma-sunset-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Fries (薯条), an accurate appetizing individual dish from Sunset Shawarma's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "poutine-cloud",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Gravy Cloud restaurant, featuring Classic poutine, Mushroom poutine, Beef poutine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "poutine-cloud-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Classic poutine (经典肉汁薯条), an accurate appetizing individual dish from Gravy Cloud's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "poutine-cloud-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Mushroom poutine (蘑菇肉汁薯条), an accurate appetizing individual dish from Gravy Cloud's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "poutine-cloud-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Beef poutine (牛肉肉汁薯条), an accurate appetizing individual dish from Gravy Cloud's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "poutine-cloud-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Cheese fries (芝士薯条), an accurate appetizing individual dish from Gravy Cloud's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "poutine-cloud-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Roasted potato (烤土豆), an accurate appetizing individual dish from Gravy Cloud's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "poutine-cloud-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Slaw (凉拌卷心菜), an accurate appetizing individual dish from Gravy Cloud's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "bacon-sunrise",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Sunrise Peameal restaurant, featuring Peameal sandwich, Egg sandwich, Cheese sandwich. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "bacon-sunrise-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Peameal sandwich (玉米粉培根三明治), an accurate appetizing individual dish from Sunrise Peameal's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "bacon-sunrise-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Egg sandwich (鸡蛋培根包), an accurate appetizing individual dish from Sunrise Peameal's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "bacon-sunrise-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Cheese sandwich (芝士培根包), an accurate appetizing individual dish from Sunrise Peameal's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "bacon-sunrise-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Breakfast plate (早餐拼盘), an accurate appetizing individual dish from Sunrise Peameal's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "bacon-sunrise-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Hash browns (烤土豆), an accurate appetizing individual dish from Sunrise Peameal's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "bacon-sunrise-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Orange juice (橙汁), an accurate appetizing individual dish from Sunrise Peameal's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "patty-island",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Island Patty restaurant, featuring Beef patty, Chicken patty, Vegetable patty. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "patty-island-item-0",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu photograph. Subject: a traditional Jamaican spiced minced beef patty. Exactly a HALF-MOON shaped flat pastry, turmeric-yellow flaky crust with fork-crimped curved edge, one half cut open revealing spiced minced beef filling. Authentic Caribbean Jamaican street food appearance. Not a round British pie, not puff pastry circles. Style: realistic appetizing food photography, warm soft daylight, cream ceramic plate on wooden tabletop, three-quarter overhead close-up of one full serving. No text, logos, people or watermarks."
+  },
+  {
+    "id": "patty-island-item-1",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu photograph. Subject: a traditional Jamaican seasoned shredded chicken patty. Exactly a HALF-MOON shaped flat pastry, turmeric-yellow flaky crust with fork-crimped curved edge, one half cut open revealing seasoned shredded chicken filling. Authentic Caribbean Jamaican street food appearance. Not a round British pie, not puff pastry circles. Style: realistic appetizing food photography, warm soft daylight, cream ceramic plate on wooden tabletop, three-quarter overhead close-up of one full serving. No text, logos, people or watermarks."
+  },
+  {
+    "id": "patty-island-item-2",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu photograph. Subject: a traditional Jamaican vegetables patty. Exactly a HALF-MOON shaped flat pastry, turmeric-yellow flaky crust with fork-crimped curved edge, one half cut open revealing vegetables filling. Authentic Caribbean Jamaican street food appearance. Not a round British pie, not puff pastry circles. Style: realistic appetizing food photography, warm soft daylight, cream ceramic plate on wooden tabletop, three-quarter overhead close-up of one full serving. No text, logos, people or watermarks."
+  },
+  {
+    "id": "patty-island-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Curry chicken (咖喱鸡饭), an accurate appetizing individual dish from Island Patty's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "patty-island-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Coconut rice (椰香饭), an accurate appetizing individual dish from Island Patty's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "patty-island-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Ginger drink (姜汁饮), an accurate appetizing individual dish from Island Patty's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pizza-comet",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Comet Pizza restaurant, featuring Cheese pizza, Pepperoni pizza, Veggie pizza. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pizza-comet-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Cheese pizza (芝士披萨), an accurate appetizing individual dish from Comet Pizza's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pizza-comet-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Pepperoni pizza (辣肠披萨), an accurate appetizing individual dish from Comet Pizza's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pizza-comet-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Veggie pizza (蔬菜披萨), an accurate appetizing individual dish from Comet Pizza's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pizza-comet-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Mushroom pizza (蘑菇披萨), an accurate appetizing individual dish from Comet Pizza's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pizza-comet-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Garlic bread (蒜香面包), an accurate appetizing individual dish from Comet Pizza's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pizza-comet-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Caesar salad (凯撒沙拉), an accurate appetizing individual dish from Comet Pizza's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "burger-paper",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Paper Plane Burger restaurant, featuring Beef burger, Double burger, Chicken burger. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "burger-paper-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Beef burger (经典牛肉汉堡), an accurate appetizing individual dish from Paper Plane Burger's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "burger-paper-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Double burger (双层芝士汉堡), an accurate appetizing individual dish from Paper Plane Burger's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "burger-paper-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Chicken burger (鸡肉汉堡), an accurate appetizing individual dish from Paper Plane Burger's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "burger-paper-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Mushroom burger (蘑菇汉堡), an accurate appetizing individual dish from Paper Plane Burger's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "burger-paper-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Fries (薯条), an accurate appetizing individual dish from Paper Plane Burger's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "burger-paper-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Onion rings (洋葱圈), an accurate appetizing individual dish from Paper Plane Burger's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "chicken-seoul",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Seoul Paper Boat restaurant, featuring Sweet spicy chicken, Garlic chicken, Original chicken. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "chicken-seoul-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Sweet spicy chicken (甜辣炸鸡), an accurate appetizing individual dish from Seoul Paper Boat's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "chicken-seoul-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Garlic chicken (蒜香炸鸡), an accurate appetizing individual dish from Seoul Paper Boat's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "chicken-seoul-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Original chicken (原味炸鸡), an accurate appetizing individual dish from Seoul Paper Boat's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "chicken-seoul-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Tteokbokki (炒年糕), an accurate appetizing individual dish from Seoul Paper Boat's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "chicken-seoul-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Rice balls (紫菜饭团), an accurate appetizing individual dish from Seoul Paper Boat's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "chicken-seoul-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Pickled radish (腌萝卜), an accurate appetizing individual dish from Seoul Paper Boat's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pho-lantern",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Lantern Pho restaurant, featuring Beef pho, Chicken pho, Vegetable pho. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pho-lantern-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Beef pho (牛肉河粉), an accurate appetizing individual dish from Lantern Pho's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pho-lantern-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Chicken pho (鸡肉河粉), an accurate appetizing individual dish from Lantern Pho's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pho-lantern-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Vegetable pho (素河粉), an accurate appetizing individual dish from Lantern Pho's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pho-lantern-item-3",
+    "prompt": "Use case: product-mockup. Asset type: fictional Vietnamese food-delivery menu photograph. Subject: traditional fresh Vietnamese shrimp summer rolls (goi cuon), NOT fried. Translucent thin rice paper visibly showing orange cooked shrimp, green lettuce, herbs and white rice vermicelli inside, three cylindrical fresh rolls with one cut-open end. Small bowl of peanut dipping sauce on a cream ceramic plate and warm wooden tabletop. Realistic appetizing food photography, soft natural daylight, three-quarter overhead close-up of a full serving. No text, logos, people or watermarks. Avoid crispy golden fried pastry skins."
+  },
+  {
+    "id": "pho-lantern-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Fried rolls (炸春卷), an accurate appetizing individual dish from Lantern Pho's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "pho-lantern-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Vietnamese coffee (越南咖啡), an accurate appetizing individual dish from Lantern Pho's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "ramen-rain",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Raindrop Ramen restaurant, featuring Tonkotsu ramen, Miso ramen, Shoyu ramen. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "ramen-rain-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Tonkotsu ramen (豚骨拉面), an accurate appetizing individual dish from Raindrop Ramen's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "ramen-rain-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Miso ramen (味噌拉面), an accurate appetizing individual dish from Raindrop Ramen's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "ramen-rain-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Shoyu ramen (酱油拉面), an accurate appetizing individual dish from Raindrop Ramen's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "ramen-rain-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Vegetable ramen (素拉面), an accurate appetizing individual dish from Raindrop Ramen's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "ramen-rain-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Gyoza (煎饺), an accurate appetizing individual dish from Raindrop Ramen's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "ramen-rain-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Edamame (毛豆), an accurate appetizing individual dish from Raindrop Ramen's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tart-little",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery restaurant cover. Subject: a signature meal spread for a fictional Little Sweet Corner restaurant, featuring Butter tart, Walnut tart, Chocolate cake. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: landscape meal spread. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tart-little-item-0",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Butter tart (黄油塔), an accurate appetizing individual dish from Little Sweet Corner's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tart-little-item-1",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Walnut tart (核桃塔), an accurate appetizing individual dish from Little Sweet Corner's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tart-little-item-2",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Chocolate cake (巧克力蛋糕), an accurate appetizing individual dish from Little Sweet Corner's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tart-little-item-3",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Cheesecake (芝士蛋糕), an accurate appetizing individual dish from Little Sweet Corner's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tart-little-item-4",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Apple pie (苹果派), an accurate appetizing individual dish from Little Sweet Corner's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "tart-little-item-5",
+    "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Vanilla cookie (香草曲奇), an accurate appetizing individual dish from Little Sweet Corner's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  }
+]

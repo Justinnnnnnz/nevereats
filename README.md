@@ -211,3 +211,11 @@ NEXT_PUBLIC_API_URL=/v1 npm run start -- --hostname 0.0.0.0 --port 3003
 ```
 
 手机与 Mac 在同一 Wi-Fi，用 Mac 的局域网 IP 加 :3003 打开。Mac 必须保持运行。HTTP 局域网预览支持模拟下单，但浏览器通知、PWA 安装和原生分享可能需要 HTTPS。
+
+## 商家与餐品图片
+
+18 家虚构商家和 108 道餐品各有独立的原创 AI 食物图片，保存在 `web/public/images/catalog/`。来源说明和提示词在同目录上一级的 `LICENSES.md` 和 `catalog-prompts.json`。图片是模拟菜单示意图。
+
+图片路径由 `api/seed/build_catalog.py` 生成并写入 seed JSON；更新后运行 `cd api && .venv/bin/python -m app.seed` 即可同步数据库。前端负责提供图片文件，API 返回相对路径。首页先显示构建时的公开 seed 菜单，再由 API 刷新，使用另行裁剪的 18 张卡片缩略图并提前加载首屏封面；商家页保留完整大图。Next.js Image 按显示尺寸优化、延迟加载，PWA 只在实际查看图片时缓存。更新原图后，在 web 运行 `npm run images:thumbnails` 可重建缩略图（使用 Next.js 已有的 sharp，不新增依赖）；菜单或图片更新后重新运行 `npm run build`，以同步首屏数据。
+
+`api/tests/test_images.py` 检查 126 个独立路径、真实 WebP 文件及内容无重复；端到端测试检查菜单图片加载和选菜弹窗大图。

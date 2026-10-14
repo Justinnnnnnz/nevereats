@@ -1,8 +1,8 @@
 import {afterEach,beforeEach,describe,expect,it,vi} from 'vitest';
 import {cartSubtotal,guestUuid,useStore} from './store';
 import type {MenuItem,Restaurant} from './types';
-const item:MenuItem={id:'dish',name_zh:'测试菜',name_en:'Test',description_zh:'',price_cents:1000,cny_reference_price:null,popular:false,option_groups:[]};
-const restaurant:Restaurant={id:'one',name_zh:'虚构餐厅',name_en:'Fiction',cuisine:'中餐',category:'中餐',neighborhood:'Spadina',rating:4.5,eta_min:15,eta_max:25,delivery_fee_cents:299,late_night:true,sections:[]};
+const item:MenuItem={id:'dish',name_zh:'测试菜',name_en:'Test',image_url:'/images/test.webp',description_zh:'',price_cents:1000,cny_reference_price:null,popular:false,option_groups:[]};
+const restaurant:Restaurant={id:'one',name_zh:'虚构餐厅',name_en:'Fiction',image_url:'/images/restaurant.webp',cuisine:'中餐',category:'中餐',neighborhood:'Spadina',rating:4.5,eta_min:15,eta_max:25,delivery_fee_cents:299,late_night:true,sections:[]};
 beforeEach(()=>useStore.getState().clear());
 describe('cart',()=>{
  it('blocks another restaurant until replacement is confirmed',()=>{const line={key:'dish',item,options:[],quantity:1};expect(useStore.getState().add(restaurant,line)).toBe(true);expect(useStore.getState().add({...restaurant,id:'two'},line)).toBe(false);expect(useStore.getState().restaurant?.id).toBe('one');expect(useStore.getState().add({...restaurant,id:'two'},line,true)).toBe(true);expect(useStore.getState().cart).toHaveLength(1);});

@@ -6,7 +6,7 @@
     "cuisine": "中餐",
     "category": "中餐",
     "neighborhood": "Spadina",
-    "image_url": "",
+    "image_url": "/images/catalog/spadina-cloud.webp",
     "rating": 4.5,
     "eta_min": 15,
     "eta_max": 25,
@@ -26,7 +26,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": 22,
-            "image_url": "",
+            "image_url": "/images/catalog/spadina-cloud-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -84,7 +84,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": 25,
-            "image_url": "",
+            "image_url": "/images/catalog/spadina-cloud-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -142,7 +142,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": 28,
-            "image_url": "",
+            "image_url": "/images/catalog/spadina-cloud-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -207,7 +207,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": 31,
-            "image_url": "",
+            "image_url": "/images/catalog/spadina-cloud-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -218,7 +218,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": 34,
-            "image_url": "",
+            "image_url": "/images/catalog/spadina-cloud-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -229,7 +229,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": 37,
-            "image_url": "",
+            "image_url": "/images/catalog/spadina-cloud-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -244,7 +244,7 @@
     "cuisine": "中餐",
     "category": "中餐",
     "neighborhood": "North York",
-    "image_url": "",
+    "image_url": "/images/catalog/north-snail.webp",
     "rating": 4.6,
     "eta_min": 20,
     "eta_max": 30,
@@ -264,7 +264,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": 22,
-            "image_url": "",
+            "image_url": "/images/catalog/north-snail-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -322,7 +322,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": 25,
-            "image_url": "",
+            "image_url": "/images/catalog/north-snail-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -380,7 +380,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": 28,
-            "image_url": "",
+            "image_url": "/images/catalog/north-snail-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -445,7 +445,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": 31,
-            "image_url": "",
+            "image_url": "/images/catalog/north-snail-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -456,7 +456,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": 34,
-            "image_url": "",
+            "image_url": "/images/catalog/north-snail-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -467,7 +467,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": 37,
-            "image_url": "",
+            "image_url": "/images/catalog/north-snail-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -482,7 +482,7 @@
     "cuisine": "中餐",
     "category": "中餐",
     "neighborhood": "Markham",
-    "image_url": "",
+    "image_url": "/images/catalog/morning-pocket.webp",
     "rating": 4.7,
     "eta_min": 25,
     "eta_max": 35,
@@ -502,7 +502,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": 22,
-            "image_url": "",
+            "image_url": "/images/catalog/morning-pocket-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -560,7 +560,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": 25,
-            "image_url": "",
+            "image_url": "/images/catalog/morning-pocket-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -618,7 +618,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": 28,
-            "image_url": "",
+            "image_url": "/images/catalog/morning-pocket-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -683,7 +683,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": 31,
-            "image_url": "",
+            "image_url": "/images/catalog/morning-pocket-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -694,7 +694,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": 34,
-            "image_url": "",
+            "image_url": "/images/catalog/morning-pocket-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -705,7 +705,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": 37,
-            "image_url": "",
+            "image_url": "/images/catalog/morning-pocket-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -720,7 +720,7 @@
     "cuisine": "中餐",
     "category": "中餐",
     "neighborhood": "Spadina",
-    "image_url": "",
+    "image_url": "/images/catalog/pepper-window.webp",
     "rating": 4.8,
     "eta_min": 15,
     "eta_max": 25,
@@ -740,7 +740,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": 22,
-            "image_url": "",
+            "image_url": "/images/catalog/pepper-window-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -798,7 +798,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": 25,
-            "image_url": "",
+            "image_url": "/images/catalog/pepper-window-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -856,7 +856,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": 28,
-            "image_url": "",
+            "image_url": "/images/catalog/pepper-window-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -921,7 +921,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": 31,
-            "image_url": "",
+            "image_url": "/images/catalog/pepper-window-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -932,7 +932,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": 34,
-            "image_url": "",
+            "image_url": "/images/catalog/pepper-window-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -943,7 +943,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": 37,
-            "image_url": "",
+            "image_url": "/images/catalog/pepper-window-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -958,7 +958,7 @@
     "cuisine": "中餐",
     "category": "烧烤",
     "neighborhood": "North York",
-    "image_url": "",
+    "image_url": "/images/catalog/snow-skewers.webp",
     "rating": 4.5,
     "eta_min": 20,
     "eta_max": 30,
@@ -978,7 +978,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": 22,
-            "image_url": "",
+            "image_url": "/images/catalog/snow-skewers-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -1036,7 +1036,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": 25,
-            "image_url": "",
+            "image_url": "/images/catalog/snow-skewers-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -1094,7 +1094,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": 28,
-            "image_url": "",
+            "image_url": "/images/catalog/snow-skewers-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -1159,7 +1159,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": 31,
-            "image_url": "",
+            "image_url": "/images/catalog/snow-skewers-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -1170,7 +1170,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": 34,
-            "image_url": "",
+            "image_url": "/images/catalog/snow-skewers-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -1181,7 +1181,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": 37,
-            "image_url": "",
+            "image_url": "/images/catalog/snow-skewers-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -1196,7 +1196,7 @@
     "cuisine": "中餐",
     "category": "火锅",
     "neighborhood": "Markham",
-    "image_url": "",
+    "image_url": "/images/catalog/hotpot-orbit.webp",
     "rating": 4.6,
     "eta_min": 25,
     "eta_max": 35,
@@ -1216,7 +1216,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": 22,
-            "image_url": "",
+            "image_url": "/images/catalog/hotpot-orbit-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -1274,7 +1274,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": 25,
-            "image_url": "",
+            "image_url": "/images/catalog/hotpot-orbit-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -1332,7 +1332,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": 28,
-            "image_url": "",
+            "image_url": "/images/catalog/hotpot-orbit-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -1397,7 +1397,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": 31,
-            "image_url": "",
+            "image_url": "/images/catalog/hotpot-orbit-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -1408,7 +1408,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": 34,
-            "image_url": "",
+            "image_url": "/images/catalog/hotpot-orbit-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -1419,7 +1419,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": 37,
-            "image_url": "",
+            "image_url": "/images/catalog/hotpot-orbit-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -1434,7 +1434,7 @@
     "cuisine": "中餐",
     "category": "中餐",
     "neighborhood": "Kensington",
-    "image_url": "",
+    "image_url": "/images/catalog/congee-clock.webp",
     "rating": 4.7,
     "eta_min": 15,
     "eta_max": 25,
@@ -1454,7 +1454,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": 22,
-            "image_url": "",
+            "image_url": "/images/catalog/congee-clock-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -1512,7 +1512,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": 25,
-            "image_url": "",
+            "image_url": "/images/catalog/congee-clock-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -1570,7 +1570,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": 28,
-            "image_url": "",
+            "image_url": "/images/catalog/congee-clock-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -1635,7 +1635,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": 31,
-            "image_url": "",
+            "image_url": "/images/catalog/congee-clock-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -1646,7 +1646,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": 34,
-            "image_url": "",
+            "image_url": "/images/catalog/congee-clock-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -1657,7 +1657,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": 37,
-            "image_url": "",
+            "image_url": "/images/catalog/congee-clock-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -1672,7 +1672,7 @@
     "cuisine": "中餐",
     "category": "奶茶",
     "neighborhood": "North York",
-    "image_url": "",
+    "image_url": "/images/catalog/tea-moon.webp",
     "rating": 4.8,
     "eta_min": 20,
     "eta_max": 30,
@@ -1692,7 +1692,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": 22,
-            "image_url": "",
+            "image_url": "/images/catalog/tea-moon-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -1786,7 +1786,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": 25,
-            "image_url": "",
+            "image_url": "/images/catalog/tea-moon-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -1880,7 +1880,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": 28,
-            "image_url": "",
+            "image_url": "/images/catalog/tea-moon-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -1981,7 +1981,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": 31,
-            "image_url": "",
+            "image_url": "/images/catalog/tea-moon-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -1992,7 +1992,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": 34,
-            "image_url": "",
+            "image_url": "/images/catalog/tea-moon-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -2003,7 +2003,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": 37,
-            "image_url": "",
+            "image_url": "/images/catalog/tea-moon-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -2018,7 +2018,7 @@
     "cuisine": "本地特色",
     "category": "本地特色",
     "neighborhood": "Kensington",
-    "image_url": "",
+    "image_url": "/images/catalog/shawarma-sunset.webp",
     "rating": 4.5,
     "eta_min": 25,
     "eta_max": 35,
@@ -2038,7 +2038,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/shawarma-sunset-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -2068,7 +2068,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/shawarma-sunset-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -2098,7 +2098,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/shawarma-sunset-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -2135,7 +2135,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/shawarma-sunset-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -2146,7 +2146,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/shawarma-sunset-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -2157,7 +2157,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/shawarma-sunset-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -2172,7 +2172,7 @@
     "cuisine": "本地特色",
     "category": "本地特色",
     "neighborhood": "Downtown",
-    "image_url": "",
+    "image_url": "/images/catalog/poutine-cloud.webp",
     "rating": 4.6,
     "eta_min": 15,
     "eta_max": 25,
@@ -2192,7 +2192,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/poutine-cloud-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -2222,7 +2222,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/poutine-cloud-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -2252,7 +2252,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/poutine-cloud-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -2289,7 +2289,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/poutine-cloud-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -2300,7 +2300,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/poutine-cloud-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -2311,7 +2311,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/poutine-cloud-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -2326,7 +2326,7 @@
     "cuisine": "本地特色",
     "category": "本地特色",
     "neighborhood": "Downtown",
-    "image_url": "",
+    "image_url": "/images/catalog/bacon-sunrise.webp",
     "rating": 4.7,
     "eta_min": 20,
     "eta_max": 30,
@@ -2346,7 +2346,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/bacon-sunrise-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -2376,7 +2376,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/bacon-sunrise-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -2406,7 +2406,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/bacon-sunrise-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -2443,7 +2443,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/bacon-sunrise-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -2454,7 +2454,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/bacon-sunrise-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -2465,7 +2465,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/bacon-sunrise-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -2480,7 +2480,7 @@
     "cuisine": "本地特色",
     "category": "本地特色",
     "neighborhood": "Scarborough",
-    "image_url": "",
+    "image_url": "/images/catalog/patty-island.webp",
     "rating": 4.8,
     "eta_min": 25,
     "eta_max": 35,
@@ -2500,7 +2500,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/patty-island-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -2530,7 +2530,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/patty-island-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -2560,7 +2560,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/patty-island-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -2597,7 +2597,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/patty-island-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -2608,7 +2608,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/patty-island-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -2619,7 +2619,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/patty-island-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -2634,7 +2634,7 @@
     "cuisine": "披萨",
     "category": "披萨",
     "neighborhood": "Annex",
-    "image_url": "",
+    "image_url": "/images/catalog/pizza-comet.webp",
     "rating": 4.5,
     "eta_min": 15,
     "eta_max": 25,
@@ -2654,7 +2654,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/pizza-comet-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -2684,7 +2684,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/pizza-comet-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -2714,7 +2714,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/pizza-comet-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -2751,7 +2751,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/pizza-comet-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -2762,7 +2762,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/pizza-comet-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -2773,7 +2773,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/pizza-comet-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -2788,7 +2788,7 @@
     "cuisine": "汉堡",
     "category": "汉堡",
     "neighborhood": "Kensington",
-    "image_url": "",
+    "image_url": "/images/catalog/burger-paper.webp",
     "rating": 4.6,
     "eta_min": 20,
     "eta_max": 30,
@@ -2808,7 +2808,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/burger-paper-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -2838,7 +2838,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/burger-paper-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -2868,7 +2868,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/burger-paper-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -2905,7 +2905,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/burger-paper-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -2916,7 +2916,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/burger-paper-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -2927,7 +2927,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/burger-paper-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -2942,7 +2942,7 @@
     "cuisine": "韩餐",
     "category": "韩餐",
     "neighborhood": "North York",
-    "image_url": "",
+    "image_url": "/images/catalog/chicken-seoul.webp",
     "rating": 4.7,
     "eta_min": 25,
     "eta_max": 35,
@@ -2962,7 +2962,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/chicken-seoul-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -2992,7 +2992,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/chicken-seoul-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -3022,7 +3022,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/chicken-seoul-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -3059,7 +3059,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/chicken-seoul-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -3070,7 +3070,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/chicken-seoul-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -3081,7 +3081,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/chicken-seoul-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -3096,7 +3096,7 @@
     "cuisine": "越南粉",
     "category": "越南粉",
     "neighborhood": "Spadina",
-    "image_url": "",
+    "image_url": "/images/catalog/pho-lantern.webp",
     "rating": 4.8,
     "eta_min": 15,
     "eta_max": 25,
@@ -3116,7 +3116,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/pho-lantern-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -3146,7 +3146,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/pho-lantern-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -3176,7 +3176,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/pho-lantern-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -3213,7 +3213,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/pho-lantern-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -3224,7 +3224,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/pho-lantern-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -3235,7 +3235,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/pho-lantern-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -3250,7 +3250,7 @@
     "cuisine": "日餐",
     "category": "日餐",
     "neighborhood": "Annex",
-    "image_url": "",
+    "image_url": "/images/catalog/ramen-rain.webp",
     "rating": 4.5,
     "eta_min": 20,
     "eta_max": 30,
@@ -3270,7 +3270,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/ramen-rain-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -3300,7 +3300,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/ramen-rain-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -3330,7 +3330,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/ramen-rain-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -3367,7 +3367,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/ramen-rain-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -3378,7 +3378,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/ramen-rain-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -3389,7 +3389,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/ramen-rain-item-5.webp",
             "popular": false,
             "option_groups": []
           }
@@ -3404,7 +3404,7 @@
     "cuisine": "甜品",
     "category": "甜品",
     "neighborhood": "Downtown",
-    "image_url": "",
+    "image_url": "/images/catalog/tart-little.webp",
     "rating": 4.6,
     "eta_min": 25,
     "eta_max": 35,
@@ -3424,7 +3424,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1299,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/tart-little-item-0.webp",
             "popular": true,
             "option_groups": [
               {
@@ -3454,7 +3454,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1449,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/tart-little-item-1.webp",
             "popular": false,
             "option_groups": [
               {
@@ -3484,7 +3484,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 1599,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/tart-little-item-2.webp",
             "popular": false,
             "option_groups": [
               {
@@ -3521,7 +3521,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 499,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/tart-little-item-3.webp",
             "popular": false,
             "option_groups": []
           },
@@ -3532,7 +3532,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 699,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/tart-little-item-4.webp",
             "popular": false,
             "option_groups": []
           },
@@ -3543,7 +3543,7 @@
             "description_zh": "虚构菜单，认真满足你的想象。",
             "price_cents": 899,
             "cny_reference_price": null,
-            "image_url": "",
+            "image_url": "/images/catalog/tart-little-item-5.webp",
             "popular": false,
             "option_groups": []
           }
