@@ -28,8 +28,12 @@ test('quick address → options → pretend pay → tracking → savings → reo
  await page.waitForURL(/\/orders\/[\da-f-]+$/);
  expect(requestBody).toBeDefined();expect(Object.keys(requestBody!)).toEqual(expect.arrayContaining(['client_total_cents']));
  expect(Object.keys(requestBody!)).not.toEqual(expect.arrayContaining(['address']));
+ await expect(page.locator('.timeline [aria-current="step"]')).toHaveText('下单成功');
+ await page.route('**/v1/orders/*',async route=>{const response=await route.fetch();const order=await response.json();order.placed_at=new Date(Date.now()-5000).toISOString();await route.fulfill({response,json:order});});
  await page.goto(page.url()+'?speed=60');
  await expect(page.getByRole('progressbar')).toBeVisible();
+ await expect(page.locator('.courier-card')).toBeVisible();
+ await expect(page.locator('.courier-vehicle')).toHaveClass(/courier-vehicle-(bike|scooter)/);
  await expect(page.getByRole('heading',{name:/这一单你省下了/})).toBeVisible({timeout:20000});
  const downloadPromise=page.waitForEvent('download');await page.getByRole('button',{name:'保存图片'}).click();
  const download=await downloadPromise;expect(download.suggestedFilename()).toMatch(/^NeverEats-.*\.png$/);await download.saveAs(`.cache.nosync/share-${testInfo.project.name}.png`);const box=await page.locator('.share-card').boundingBox();expect(box).not.toBeNull();expect(Math.abs(box!.width/box!.height-.75)).toBeLessThan(.01);

@@ -7,7 +7,7 @@ import {interpolate,routeOrigin} from '@/lib/timeline';
 import {useStore} from '@/lib/store';
 import type {Order} from '@/lib/types';
 import 'mapbox-gl/dist/mapbox-gl.css';
-export function RiderMap({order,speed}:{order:Order;speed:number}){
+export function RiderMap({order,speed,vehicle}:{order:Order;speed:number;vehicle:'bike'|'scooter'}){
  const container=useRef<HTMLDivElement>(null);const t=useTranslations('tracking');const address=useStore(s=>s.address);const [failed,setFailed]=useState(false);
  useEffect(()=>{
   const token=process.env.NEXT_PUBLIC_MAPBOX_TOKEN;if(!token||!address||!container.current)return;
@@ -22,7 +22,8 @@ export function RiderMap({order,speed}:{order:Order;speed:number}){
     map=new mapbox.Map({container:container.current,accessToken:token,style:'mapbox://styles/mapbox/streets-v12',center:destination,zoom:13,attributionControl:true});
     map.on('error',()=>{if(!disposed)setFailed(true);});
     new mapbox.Marker({color:'#FF7A1A'}).setLngLat(origin).addTo(map);new mapbox.Marker({color:'#1F1A17'}).setLngLat(destination).addTo(map);
-    marker=new mapbox.Marker({color:'#2BB673'}).setLngLat(origin).addTo(map);
+    const riderElement=document.createElement('div');riderElement.className=`map-rider-marker map-rider-marker-${vehicle}`;riderElement.setAttribute('aria-hidden','true');const vehicleIcon=document.createElement('span');vehicleIcon.textContent=vehicle==='bike'?'🚲':'🛵';riderElement.append(vehicleIcon);
+    marker=new mapbox.Marker({element:riderElement,anchor:'center'}).setLngLat(origin).addTo(map);
     const route={type:'Feature' as const,properties:{},geometry:{type:'LineString' as const,coordinates:geometry}};
     map.on('load',()=>{if(!map||disposed)return;map.addSource('route',{type:'geojson',data:route});map.addLayer({id:'route',type:'line',source:'route',paint:{'line-color':'#FF7A1A','line-width':5}});const bounds=new mapbox.LngLatBounds(origin,destination);geometry.forEach(p=>bounds.extend(p));map.fitBounds(bounds,{padding:50,maxZoom:14,duration:0});});
     const picked=order.timeline.find(s=>s.status==='picked_up')!.offset_seconds;const assigned=order.timeline.find(s=>s.status==='courier_assigned')!.offset_seconds;const delivered=order.timeline.at(-1)!.offset_seconds;const approach:[number,number]=[origin[0]-.008,origin[1]-.004];const km=length(route);
@@ -30,6 +31,6 @@ export function RiderMap({order,speed}:{order:Order;speed:number}){
    }catch{if(!disposed)setFailed(true);}
   }
   void setup();return()=>{disposed=true;controller.abort();cancelAnimationFrame(frame);marker?.remove();map?.remove();};
- },[address,order,speed]);
+ },[address,order,speed,vehicle]);
  return <><div className="rider-map" ref={container} role="img" aria-label={t('mapLabel')}/>{(!process.env.NEXT_PUBLIC_MAPBOX_TOKEN||!address||failed)&&<p className="notice">{t('mapFallback')}</p>}</>;
 }
