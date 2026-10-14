@@ -21,7 +21,7 @@
 - commit message 用英文写清楚做了什么，例如 `Add McDonald's simulated shop`。
 - commit 前检查暂存区，不能包含 .env、.env.local、token、.venv、node_modules 或 .nosync 缓存文件。
 - 完成后告诉我 commit hash 和一句话总结。
-- 不要 push，不要部署。
+- 每次 commit 之后自动 `git push` 到 origin，但永远不要 force push，也不要部署。
 
 ## 必须停下来问我的情况
 - 需要添加 SPEC.md 里没有列出、也不是所选框架标准配套的 dependency。
@@ -36,7 +36,7 @@
 - 项目放在 iCloud 同步的桌面上，`.venv` 和 `node_modules` 这类大量小文件可能导致读写极慢甚至卡住。如果 pip 或 npm 卡住，把虚拟环境建成 `api/.venv.nosync`，再用 symlink `api/.venv` 指向它（iCloud 会跳过 `.nosync` 结尾的文件夹），并确保两者都在 `.gitignore` 里。
 - 不要使用 sudo，不要全局安装软件包（Python 依赖只装在 api/.venv 里）。
 - 不要运行 `npm audit fix --force` 或其他会升级大版本的命令；处理漏洞前先在 PROGRESS.md 里说明。
-- 不要 push 到任何远程仓库，也不要部署。
+- 每次 commit 之后自动 `git push` 到 origin，但永远不要 force push，也不要部署。
 
 ## 全部完成后
 用简单易懂的中文给我一份总结：每个 milestone 做了什么、怎么在本地启动和检查、哪些地方建议我亲自测试、还有哪些已知问题。
