@@ -15,8 +15,51 @@ html { scroll-padding-block:100px; } button,input,a { scroll-margin-block:100px;
 
 .food-art { position:relative; overflow:hidden; } .menu-item>.food-art { flex:0 0 72px; }
 
-.tracking-progress { height:10px; overflow:hidden; border-radius:999px; background:var(--border); }
-.tracking-progress span { display:block; height:100%; border-radius:inherit; background:linear-gradient(90deg,var(--primary),#ff9d4d); }
+.promotion-entry,.benefit-link { width:100%; display:flex; justify-content:space-between; align-items:center; padding:16px 0; border:0; border-bottom:1px solid var(--border); background:transparent; color:var(--foreground); text-align:left; text-decoration:none; font-size:14px; }
+.promotion-entry span+span { color:var(--muted-foreground); }
+.promotion-list { display:grid; gap:10px; margin-top:16px; }
+.promotion-option,.promotion-card { display:grid; gap:6px; width:100%; padding:16px; border:1px solid var(--border); border-radius:16px; background:var(--card); color:var(--foreground); text-align:left; }
+.promotion-option[aria-pressed="true"] { border-color:var(--primary); box-shadow:inset 0 0 0 1px var(--primary); }
+.promotion-option span,.promotion-option small,.promotion-card span,.promotion-card small { color:var(--muted-foreground); font-size:12px; }
+.promotion-option small,.promotion-card small { margin-top:4px; }
+.fee-discount,.fee-discount strong { color:var(--success); }
+.text-link { display:inline-block; margin:24px 0; color:var(--foreground); }
+.member-upsell { display:block; width:100%; margin:8px 0 12px; padding:4px 0; border:0; background:transparent; color:var(--muted-foreground); text-align:left; font-size:12px; }
+.member-badge { display:inline-block; margin-left:4px; padding:3px 7px; border-radius:99px; background:var(--background); color:var(--foreground); font-size:10px; font-weight:600; }
+.membership-card { padding:18px; border:1px solid var(--border); border-radius:18px; background:var(--card); }
+.membership-card h2 { margin:0 0 12px; }
+.membership-card ul { padding-left:22px; line-height:2; }
+.cancel-membership { margin-top:24px; padding:8px 0; border:0; background:transparent; color:var(--muted-foreground); text-decoration:underline; font-size:13px; }
+
+.tracking-page { padding-bottom:12px; }
+.tracking-status { min-height:100px; display:flex; align-items:center; }
+.tracking-status h1 { margin:8px 0 2px; font-size:28px; line-height:1.25; letter-spacing:-.4px; }
+.tracking-status p { margin:6px 0 12px; font-size:14px; }
+.tracking-segments { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; margin:12px 0 16px; }
+.tracking-segment { min-width:0; color:var(--muted-foreground); }
+.segment-track { position:relative; display:block; height:6px; margin-bottom:8px; overflow:hidden; border-radius:99px; background:var(--border); }
+.segment-fill { position:absolute; inset:0; border-radius:inherit; background:var(--primary); }
+.segment-current .segment-track { background:color-mix(in srgb,var(--primary) 24%,var(--border)); }
+.segment-current { color:var(--foreground); font-weight:700; }
+.segment-current .segment-track::before { content:""; position:absolute; inset:0; background:var(--primary); opacity:.48; }
+.segment-shimmer { position:absolute; top:0; bottom:0; left:0; width:42%; background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--card) 75%,transparent),transparent); }
+.tracking-segment small { display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:10px; }
+.tracking-illustration { display:grid; place-items:center; height:174px; margin:10px 0 0; border-radius:20px; background:var(--background); color:var(--foreground); overflow:hidden; }
+.tracking-illustration svg { display:block; width:min(100%,350px); height:100%; color:var(--foreground); }
+.tracking-restaurant { margin:0 0 10px; font-size:13px; }
+.map-rider-marker { display:grid; width:42px; height:42px; place-items:center; border:2px solid var(--card); border-radius:50%; background:var(--primary); color:var(--foreground); box-shadow:0 3px 12px #1f1a1760; }
+.map-vehicle-icon { display:block; width:27px; height:27px; transform-origin:center; color:var(--foreground); }
+.courier-card { display:grid; grid-template-columns:48px minmax(0,1fr) 10px; column-gap:12px; align-items:center; margin:14px 0; padding:14px; }
+.courier-avatar { display:grid; width:46px; height:46px; place-items:center; grid-row:span 2; border-radius:50%; background:var(--primary); color:var(--primary-foreground); font-size:20px; font-weight:700; }
+.courier-avatar-1 { background:#84b990; }.courier-avatar-2 { background:#e9b970; }.courier-avatar-3 { background:#87a5c9; }
+.courier-info { min-width:0; }.courier-info p { margin:4px 0 0; font-size:12px; }
+.courier-rating { margin-left:6px; font-size:12px; white-space:nowrap; }
+.courier-live { grid-column:3; grid-row:1; }
+.courier-actions { display:flex; grid-column:2/4; gap:8px; margin-top:10px; }
+.courier-actions button { min-width:0; flex:1; height:38px; padding:0 12px; font-size:12px; }
+.tracking-panel { margin-top:14px; }
+@media (prefers-color-scheme:dark) { .courier-avatar-1 {background:#4d7659}.courier-avatar-2 {background:#8a6836}.courier-avatar-3 {background:#4b6482}.map-rider-marker {border-color:#1f1a17} }
+
 .timeline { list-style:none; padding:8px 0 4px; margin:16px 0; line-height:1.45; }
 .timeline li { position:relative; min-height:36px; padding:4px 0 8px 30px; transition:color .25s ease, opacity .25s ease; }
 .timeline li::before { content:""; position:absolute; z-index:1; left:2px; top:7px; width:12px; height:12px; border:2px solid var(--border); border-radius:50%; background:var(--card); transition:background .25s ease,border-color .25s ease,box-shadow .25s ease,transform .25s ease; }
@@ -34,5 +77,5 @@ html { scroll-padding-block:100px; } button,input,a { scroll-margin-block:100px;
 .map-rider-marker { display:grid; width:42px; height:42px; place-items:center; border:3px solid white; border-radius:50%; background:var(--primary); box-shadow:0 3px 12px #1f1a1760; }
 .map-rider-marker span { display:block; font-size:23px; line-height:1; transform:rotate(45deg); animation:courier-bob 1.15s ease-in-out infinite; }
 @keyframes courier-bob { 0%,100% { translate:0 0; } 50% { translate:0 -3px; } }
-@keyframes live-pulse { 0% { box-shadow:0 0 0 0 color-mix(in srgb,var(--success) 35%,transparent); } 75%,100% { box-shadow:0 0 0 7px color-mix(in srgb,var(--success) 0%,transparent); } }
+@keyframes live-pulse { 0%,100% { transform:scale(1); opacity:1; } 50% { transform:scale(1.2); opacity:.55; } }
 @media (prefers-reduced-motion:reduce) { .courier-vehicle,.courier-live,.map-rider-marker span { animation:none; } .timeline li,.timeline li::before { transition:none; } }
