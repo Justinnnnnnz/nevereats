@@ -1,2 +1,2 @@
-import { Placeholder } from "@/components/placeholder";
-export default function Page() { return <Placeholder page="profile" />; }
+import {Profile} from '@/components/profile';
+export default function Page(){return <Profile/>;}

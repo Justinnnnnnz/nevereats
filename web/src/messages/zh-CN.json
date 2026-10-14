@@ -186,5 +186,48 @@
         "bio": "把快乐带到门口。"
       }
     }
+  },
+  "savings": {
+    "opening": "打开门，看看你的外卖…",
+    "emptyDoor": "外卖已送达！……然而门口空无一物。",
+    "saved": "这一单你省下了 {cad} ≈ 约 ¥{cny}",
+    "yuan": "约 ¥{amount}",
+    "cumulative": "累计省下 {amount}",
+    "quote": "快乐已经到手，钱包还在原地。",
+    "saveImage": "保存图片",
+    "share": "分享",
+    "imageError": "图片暂时生成失败，请重试。",
+    "home": "回首页",
+    "reorder": "再来一单（假的）",
+    "reorderError": "菜品或选项已变化，请回餐厅重新选择。",
+    "replaceTitle": "替换当前购物车？",
+    "replaceBody": "再来一单会替换当前购物车，请重新确认结账价格。",
+    "replaceConfirm": "替换并去结账"
+  },
+  "history": {
+    "title": "想象力订单簿",
+    "loading": "加载历史订单",
+    "error": "订单暂时无法加载。",
+    "retry": "重试",
+    "empty": "还没有订单，去首页挑一份快乐吧。",
+    "more": "加载更多"
+  },
+  "profile": {
+    "title": "快乐有记录，省钱看得见",
+    "loading": "加载统计",
+    "error": "统计暂时无法加载。",
+    "retry": "重试",
+    "total": "累计省钱",
+    "yuan": "约 ¥{amount}",
+    "count": "模拟订单数",
+    "favorite": "最常点的餐厅",
+    "hour": "最常下单的时段",
+    "hourValue": "{hour}:00–{hour}:59（多伦多）",
+    "none": "暂无记录",
+    "empty": "你的第一笔省钱，还在路上。",
+    "login": "登录",
+    "membership": "会员",
+    "coupon": "优惠券",
+    "soon": "即将上线"
   }
 }

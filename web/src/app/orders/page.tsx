@@ -1,2 +1,2 @@
-import { Placeholder } from "@/components/placeholder";
-export default function Page() { return <Placeholder page="orders" />; }
+import {OrderHistory} from '@/components/order-history';
+export default function Page(){return <OrderHistory/>;}
