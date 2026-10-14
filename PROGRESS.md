@@ -44,3 +44,12 @@
 - 空气支付仅原创云钱包图案和扫描/对勾动效，无真实支付字段；创建订单包含 client_total_cents 且不含地址或坐标。
 - 前端 lint、8 项 tests、production build，后端 lint/9 项 tests/compileall 通过；服务 health 与结账页响应正常。
 - NEXT_PUBLIC_HST_PERCENT 和后端 HST_PERCENT 必须保持一致；不一致时后端拒绝订单。
+
+## Milestone 5 — 完成
+
+- 前后端按相同时间线推算状态；开发环境 ?speed=10/60，生产忽略加速参数。
+- 10 个虚构骑手、倒计时、进度与趣味延误消息；状态变化 toast，用户主动授权后发浏览器通知。
+- 订单 id 决定 1.5–3km 餐厅坐标；Mapbox cycling route 在 client 缓存，失败回退直线，Turf along/length 与 requestAnimationFrame 计算骑手位置。
+- 取餐前接近餐厅、取餐后沿路线前往本地地址。路线与地址不发送到本项目 API。
+- 前端 lint/10 项 tests/build 和后端 lint/9 项 tests/compileall 通过；两个服务正常响应。
+- 地图/浏览器通知需要有效 token、网络和浏览器支持；无地图时保留时间线。刷新时开发加速仍按原始 placed_at 推算。

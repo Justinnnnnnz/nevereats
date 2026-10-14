@@ -116,5 +116,75 @@
       "tip_cents": "按小计百分比或自定义金额计算。",
       "total_cents": "所有费用之和；不会扣真实的钱。"
     }
+  },
+  "tracking": {
+    "loading": "加载订单中",
+    "error": "订单暂时无法加载，请确认访客身份并重试。",
+    "retry": "重试",
+    "mapLabel": "模拟骑手配送地图",
+    "mapFallback": "地图暂时无法显示，订单时间线会继续更新。",
+    "countdown": "预计 {minutes} 分 {seconds} 秒后送达",
+    "progress": "模拟配送进度",
+    "notificationTitle": "NeverEats 订单进度",
+    "notificationExplain": "允许浏览器通知后，App 打开时也能提醒你订单进度。",
+    "allowNotifications": "允许进度通知",
+    "later": "暂时不用",
+    "statuses": {
+      "placed": "下单成功",
+      "restaurant_accepted": "商家已接单",
+      "preparing": "正在制作",
+      "courier_assigned": "骑手已接单",
+      "picked_up": "骑手已取餐",
+      "en_route": "配送中",
+      "arriving": "即将送达",
+      "delivered": "已送达"
+    },
+    "delays": {
+      "0": "骑手在 Spadina 等红灯",
+      "1": "骑手被一只浣熊拦住了 🦝",
+      "2": "骑手遇到了 TTC 改道"
+    },
+    "couriers": {
+      "0": {
+        "name": "小王",
+        "bio": "风雨无阻，空气准时。"
+      },
+      "1": {
+        "name": "小陈",
+        "bio": "骑着单车穿过晚风。"
+      },
+      "2": {
+        "name": "阿橙",
+        "bio": "今晚的快乐配送员。"
+      },
+      "3": {
+        "name": "小林",
+        "bio": "每个路口都认真等灯。"
+      },
+      "4": {
+        "name": "阿雪",
+        "bio": "雪天也能送想象。"
+      },
+      "5": {
+        "name": "小周",
+        "bio": "熟悉每条巷子。"
+      },
+      "6": {
+        "name": "阿月",
+        "bio": "只在夜里出现。"
+      },
+      "7": {
+        "name": "小李",
+        "bio": "和浣熊是老朋友。"
+      },
+      "8": {
+        "name": "阿安",
+        "bio": "慢一点，也很安心。"
+      },
+      "9": {
+        "name": "小夏",
+        "bio": "把快乐带到门口。"
+      }
+    }
   }
 }

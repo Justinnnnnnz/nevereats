@@ -1,0 +1,4 @@
+import type {Order} from './types';
+export function statusAt(placedAt:string,stages:Order['timeline'],now=Date.now(),speed=1){const elapsed=Math.max(0,(now-Date.parse(placedAt))/1000)*speed;return [...stages].reverse().find(s=>s.offset_seconds<=elapsed)?.status||'placed';}
+export function routeOrigin(id:string,destination:[number,number]):[number,number]{let hash=2166136261;for(const c of id)hash=Math.imul(hash^c.charCodeAt(0),16777619);const angle=((hash>>>0)%360)*Math.PI/180;const km=1.5+((hash>>>8)%1501)/1000;return [destination[0]+Math.sin(angle)*km/(111.32*Math.cos(destination[1]*Math.PI/180)),destination[1]+Math.cos(angle)*km/111.32];}
+export const interpolate=(a:[number,number],b:[number,number],fraction:number):[number,number]=>[a[0]+(b[0]-a[0])*Math.min(1,Math.max(0,fraction)),a[1]+(b[1]-a[1])*Math.min(1,Math.max(0,fraction))];

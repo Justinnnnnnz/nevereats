@@ -1,2 +1,2 @@
-import {OrderPreview} from '@/components/order-preview';
-export default async function Page({params}:{params:Promise<{id:string}>}){const {id}=await params;return <OrderPreview id={id}/>;}
+import {Tracking} from '@/components/tracking';
+export default async function Page({params,searchParams}:{params:Promise<{id:string}>;searchParams:Promise<{speed?:string}>}){const {id}=await params;const query=await searchParams;const value=Number(query.speed||1);const speed=process.env.NODE_ENV==='development'&&Number.isFinite(value)?Math.min(60,Math.max(1,value)):1;return <Tracking id={id} speed={speed}/>;}
