@@ -19,6 +19,18 @@ jobs:
       - run: npm run build
   api:
     runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: nevereats
+          POSTGRES_PASSWORD: nevereats
+          POSTGRES_DB: nevereats
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U nevereats -d nevereats"
+          --health-interval 5s --health-timeout 5s --health-retries 10
     defaults:
       run:
         working-directory: api
@@ -31,4 +43,7 @@ jobs:
       - run: .venv/bin/python -m pip install -e '.[dev]'
       - run: .venv/bin/ruff check .
       - run: .venv/bin/ruff format --check .
+      - run: .venv/bin/alembic upgrade head
+      - run: .venv/bin/python -m app.seed
       - run: .venv/bin/pytest
+      - run: .venv/bin/python -m compileall -q app

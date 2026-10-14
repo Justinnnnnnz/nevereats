@@ -49,6 +49,7 @@ set -a
 source .env
 set +a
 .venv/bin/alembic upgrade head
+.venv/bin/python -m app.seed
 .venv/bin/fastapi dev app/main.py --host 127.0.0.1 --port 8000
 ```
 
@@ -58,7 +59,7 @@ set +a
 curl -f http://localhost:8000/v1/health
 ```
 
-应返回 `{"status":"ok"}`。此 endpoint 检查 API 进程，不检查数据库；数据库用上面的 `pg_isready` 单独确认。Milestone 1 只配置 Alembic，尚无业务表和 migration。
+应返回 `{"status":"ok"}`。此 endpoint 检查 API 进程，不检查数据库；数据库用上面的 `pg_isready` 单独确认。Milestone 2 已包含业务表 migration 和幂等 seed 命令。
 
 ### 3. 前端（新终端）
 

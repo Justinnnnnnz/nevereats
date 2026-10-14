@@ -1,0 +1,3554 @@
+[
+  {
+    "id": "spadina-cloud",
+    "name_zh": "Spadina 云朵麻辣烫",
+    "name_en": "Cloud Malatang",
+    "cuisine": "中餐",
+    "category": "中餐",
+    "neighborhood": "Spadina",
+    "image_url": "",
+    "rating": 4.5,
+    "eta_min": 15,
+    "eta_max": 25,
+    "delivery_fee_cents": 299,
+    "late_night": true,
+    "sort_order": 0,
+    "sections": [
+      {
+        "id": "spadina-cloud-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "spadina-cloud-item-0",
+            "name_zh": "麻辣烫",
+            "name_en": "Malatang",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": 22,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "spadina-cloud-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "spadina-cloud-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "spadina-cloud-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "spadina-cloud-item-0-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "spadina-cloud-item-0-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "spadina-cloud-item-0-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "spadina-cloud-item-0-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "spadina-cloud-item-0-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "spadina-cloud-item-1",
+            "name_zh": "番茄烫",
+            "name_en": "Tomato soup",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": 25,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "spadina-cloud-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "spadina-cloud-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "spadina-cloud-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "spadina-cloud-item-1-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "spadina-cloud-item-1-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "spadina-cloud-item-1-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "spadina-cloud-item-1-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "spadina-cloud-item-1-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "spadina-cloud-item-2",
+            "name_zh": "菌菇烫",
+            "name_en": "Mushroom soup",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": 28,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "spadina-cloud-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "spadina-cloud-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "spadina-cloud-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "spadina-cloud-item-2-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "spadina-cloud-item-2-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "spadina-cloud-item-2-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "spadina-cloud-item-2-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "spadina-cloud-item-2-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "spadina-cloud-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "spadina-cloud-item-3",
+            "name_zh": "牛肉烫",
+            "name_en": "Beef bowl",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": 31,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "spadina-cloud-item-4",
+            "name_zh": "酸辣粉",
+            "name_en": "Sour noodles",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": 34,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "spadina-cloud-item-5",
+            "name_zh": "芝麻酱拌菜",
+            "name_en": "Sesame bowl",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": 37,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "north-snail",
+    "name_zh": "北岸螺蛳粉小屋",
+    "name_en": "Northern Snail Noodles",
+    "cuisine": "中餐",
+    "category": "中餐",
+    "neighborhood": "North York",
+    "image_url": "",
+    "rating": 4.6,
+    "eta_min": 20,
+    "eta_max": 30,
+    "delivery_fee_cents": 399,
+    "late_night": false,
+    "sort_order": 1,
+    "sections": [
+      {
+        "id": "north-snail-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "north-snail-item-0",
+            "name_zh": "招牌螺蛳粉",
+            "name_en": "Snail noodles",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": 22,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "north-snail-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "north-snail-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "north-snail-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "north-snail-item-0-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "north-snail-item-0-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "north-snail-item-0-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "north-snail-item-0-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "north-snail-item-0-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "north-snail-item-1",
+            "name_zh": "干拌螺蛳粉",
+            "name_en": "Dry noodles",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": 25,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "north-snail-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "north-snail-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "north-snail-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "north-snail-item-1-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "north-snail-item-1-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "north-snail-item-1-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "north-snail-item-1-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "north-snail-item-1-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "north-snail-item-2",
+            "name_zh": "酸笋粉",
+            "name_en": "Bamboo noodles",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": 28,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "north-snail-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "north-snail-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "north-snail-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "north-snail-item-2-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "north-snail-item-2-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "north-snail-item-2-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "north-snail-item-2-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "north-snail-item-2-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "north-snail-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "north-snail-item-3",
+            "name_zh": "牛肉粉",
+            "name_en": "Beef noodles",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": 31,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "north-snail-item-4",
+            "name_zh": "炸蛋",
+            "name_en": "Fried egg",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": 34,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "north-snail-item-5",
+            "name_zh": "腐竹豆皮",
+            "name_en": "Tofu skin",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": 37,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "morning-pocket",
+    "name_zh": "清晨口袋煎饼",
+    "name_en": "Morning Pocket",
+    "cuisine": "中餐",
+    "category": "中餐",
+    "neighborhood": "Markham",
+    "image_url": "",
+    "rating": 4.7,
+    "eta_min": 25,
+    "eta_max": 35,
+    "delivery_fee_cents": 499,
+    "late_night": true,
+    "sort_order": 2,
+    "sections": [
+      {
+        "id": "morning-pocket-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "morning-pocket-item-0",
+            "name_zh": "经典煎饼",
+            "name_en": "Jianbing",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": 22,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "morning-pocket-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "morning-pocket-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "morning-pocket-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "morning-pocket-item-0-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "morning-pocket-item-0-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "morning-pocket-item-0-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "morning-pocket-item-0-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "morning-pocket-item-0-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "morning-pocket-item-1",
+            "name_zh": "鸡蛋饼",
+            "name_en": "Egg crepe",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": 25,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "morning-pocket-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "morning-pocket-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "morning-pocket-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "morning-pocket-item-1-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "morning-pocket-item-1-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "morning-pocket-item-1-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "morning-pocket-item-1-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "morning-pocket-item-1-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "morning-pocket-item-2",
+            "name_zh": "牛肉煎饼",
+            "name_en": "Beef crepe",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": 28,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "morning-pocket-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "morning-pocket-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "morning-pocket-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "morning-pocket-item-2-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "morning-pocket-item-2-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "morning-pocket-item-2-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "morning-pocket-item-2-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "morning-pocket-item-2-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "morning-pocket-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "morning-pocket-item-3",
+            "name_zh": "豆浆",
+            "name_en": "Soy milk",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": 31,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "morning-pocket-item-4",
+            "name_zh": "小米粥",
+            "name_en": "Millet congee",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": 34,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "morning-pocket-item-5",
+            "name_zh": "油条",
+            "name_en": "Fried dough",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": 37,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pepper-window",
+    "name_zh": "小窗川味厨房",
+    "name_en": "Pepper Window",
+    "cuisine": "中餐",
+    "category": "中餐",
+    "neighborhood": "Spadina",
+    "image_url": "",
+    "rating": 4.8,
+    "eta_min": 15,
+    "eta_max": 25,
+    "delivery_fee_cents": 299,
+    "late_night": true,
+    "sort_order": 3,
+    "sections": [
+      {
+        "id": "pepper-window-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "pepper-window-item-0",
+            "name_zh": "麻婆豆腐",
+            "name_en": "Mapo tofu",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": 22,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "pepper-window-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "pepper-window-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pepper-window-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "pepper-window-item-0-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "pepper-window-item-0-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pepper-window-item-0-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pepper-window-item-0-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pepper-window-item-0-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pepper-window-item-1",
+            "name_zh": "宫保鸡丁",
+            "name_en": "Kung pao chicken",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": 25,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "pepper-window-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "pepper-window-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pepper-window-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "pepper-window-item-1-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "pepper-window-item-1-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pepper-window-item-1-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pepper-window-item-1-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pepper-window-item-1-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pepper-window-item-2",
+            "name_zh": "回锅肉",
+            "name_en": "Twice cooked pork",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": 28,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "pepper-window-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "pepper-window-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pepper-window-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "pepper-window-item-2-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "pepper-window-item-2-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pepper-window-item-2-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pepper-window-item-2-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pepper-window-item-2-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pepper-window-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "pepper-window-item-3",
+            "name_zh": "鱼香茄子",
+            "name_en": "Eggplant",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": 31,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "pepper-window-item-4",
+            "name_zh": "蒜蓉菜心",
+            "name_en": "Greens",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": 34,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "pepper-window-item-5",
+            "name_zh": "米饭",
+            "name_en": "Rice",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": 37,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "snow-skewers",
+    "name_zh": "雪夜串串屋",
+    "name_en": "Snow Skewers",
+    "cuisine": "中餐",
+    "category": "烧烤",
+    "neighborhood": "North York",
+    "image_url": "",
+    "rating": 4.5,
+    "eta_min": 20,
+    "eta_max": 30,
+    "delivery_fee_cents": 399,
+    "late_night": false,
+    "sort_order": 4,
+    "sections": [
+      {
+        "id": "snow-skewers-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "snow-skewers-item-0",
+            "name_zh": "羊肉串",
+            "name_en": "Lamb skewers",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": 22,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "snow-skewers-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "snow-skewers-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "snow-skewers-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "snow-skewers-item-0-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "snow-skewers-item-0-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "snow-skewers-item-0-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "snow-skewers-item-0-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "snow-skewers-item-0-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "snow-skewers-item-1",
+            "name_zh": "牛肉串",
+            "name_en": "Beef skewers",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": 25,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "snow-skewers-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "snow-skewers-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "snow-skewers-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "snow-skewers-item-1-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "snow-skewers-item-1-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "snow-skewers-item-1-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "snow-skewers-item-1-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "snow-skewers-item-1-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "snow-skewers-item-2",
+            "name_zh": "烤鸡翅",
+            "name_en": "Chicken wings",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": 28,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "snow-skewers-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "snow-skewers-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "snow-skewers-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "snow-skewers-item-2-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "snow-skewers-item-2-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "snow-skewers-item-2-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "snow-skewers-item-2-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "snow-skewers-item-2-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "snow-skewers-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "snow-skewers-item-3",
+            "name_zh": "烤茄子",
+            "name_en": "Eggplant",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": 31,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "snow-skewers-item-4",
+            "name_zh": "烤蘑菇",
+            "name_en": "Mushrooms",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": 34,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "snow-skewers-item-5",
+            "name_zh": "烤馒头",
+            "name_en": "Toasted bun",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": 37,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hotpot-orbit",
+    "name_zh": "小橙火锅星球",
+    "name_en": "Hotpot Orbit",
+    "cuisine": "中餐",
+    "category": "火锅",
+    "neighborhood": "Markham",
+    "image_url": "",
+    "rating": 4.6,
+    "eta_min": 25,
+    "eta_max": 35,
+    "delivery_fee_cents": 499,
+    "late_night": true,
+    "sort_order": 5,
+    "sections": [
+      {
+        "id": "hotpot-orbit-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "hotpot-orbit-item-0",
+            "name_zh": "双人火锅",
+            "name_en": "Hotpot set",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": 22,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "hotpot-orbit-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "hotpot-orbit-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "hotpot-orbit-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "hotpot-orbit-item-0-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "hotpot-orbit-item-0-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "hotpot-orbit-item-0-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "hotpot-orbit-item-0-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "hotpot-orbit-item-0-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "hotpot-orbit-item-1",
+            "name_zh": "牛肉锅",
+            "name_en": "Beef pot",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": 25,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "hotpot-orbit-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "hotpot-orbit-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "hotpot-orbit-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "hotpot-orbit-item-1-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "hotpot-orbit-item-1-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "hotpot-orbit-item-1-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "hotpot-orbit-item-1-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "hotpot-orbit-item-1-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "hotpot-orbit-item-2",
+            "name_zh": "菌菇锅",
+            "name_en": "Mushroom pot",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": 28,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "hotpot-orbit-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "hotpot-orbit-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "hotpot-orbit-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "hotpot-orbit-item-2-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "hotpot-orbit-item-2-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "hotpot-orbit-item-2-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "hotpot-orbit-item-2-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "hotpot-orbit-item-2-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hotpot-orbit-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "hotpot-orbit-item-3",
+            "name_zh": "毛肚",
+            "name_en": "Tripe",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": 31,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "hotpot-orbit-item-4",
+            "name_zh": "午餐肉",
+            "name_en": "Luncheon meat",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": 34,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "hotpot-orbit-item-5",
+            "name_zh": "蔬菜拼盘",
+            "name_en": "Vegetable set",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": 37,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "congee-clock",
+    "name_zh": "慢钟粥粉面",
+    "name_en": "Congee Clock",
+    "cuisine": "中餐",
+    "category": "中餐",
+    "neighborhood": "Kensington",
+    "image_url": "",
+    "rating": 4.7,
+    "eta_min": 15,
+    "eta_max": 25,
+    "delivery_fee_cents": 299,
+    "late_night": true,
+    "sort_order": 6,
+    "sections": [
+      {
+        "id": "congee-clock-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "congee-clock-item-0",
+            "name_zh": "皮蛋瘦肉粥",
+            "name_en": "Congee",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": 22,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "congee-clock-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "congee-clock-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "congee-clock-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "congee-clock-item-0-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "congee-clock-item-0-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "congee-clock-item-0-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "congee-clock-item-0-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "congee-clock-item-0-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "congee-clock-item-1",
+            "name_zh": "牛肉肠粉",
+            "name_en": "Rice rolls",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": 25,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "congee-clock-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "congee-clock-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "congee-clock-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "congee-clock-item-1-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "congee-clock-item-1-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "congee-clock-item-1-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "congee-clock-item-1-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "congee-clock-item-1-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "congee-clock-item-2",
+            "name_zh": "干炒牛河",
+            "name_en": "Beef noodles",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": 28,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "congee-clock-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "congee-clock-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "congee-clock-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "congee-clock-item-2-group-1",
+                "name_zh": "辣度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "congee-clock-item-2-group-1-option-0",
+                    "name_zh": "不辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "congee-clock-item-2-group-1-option-1",
+                    "name_zh": "微辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "congee-clock-item-2-group-1-option-2",
+                    "name_zh": "中辣",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "congee-clock-item-2-group-1-option-3",
+                    "name_zh": "特辣",
+                    "price_delta_cents": 0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "congee-clock-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "congee-clock-item-3",
+            "name_zh": "云吞面",
+            "name_en": "Wonton noodles",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": 31,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "congee-clock-item-4",
+            "name_zh": "萝卜糕",
+            "name_en": "Turnip cake",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": 34,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "congee-clock-item-5",
+            "name_zh": "清粥",
+            "name_en": "Plain congee",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": 37,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tea-moon",
+    "name_zh": "月亮口袋奶茶",
+    "name_en": "Moon Pocket Tea",
+    "cuisine": "中餐",
+    "category": "奶茶",
+    "neighborhood": "North York",
+    "image_url": "",
+    "rating": 4.8,
+    "eta_min": 20,
+    "eta_max": 30,
+    "delivery_fee_cents": 399,
+    "late_night": false,
+    "sort_order": 7,
+    "sections": [
+      {
+        "id": "tea-moon-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "tea-moon-item-0",
+            "name_zh": "黑糖珍珠奶茶",
+            "name_en": "Brown sugar tea",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": 22,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "tea-moon-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "tea-moon-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "tea-moon-item-0-group-1",
+                "name_zh": "冰量",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "tea-moon-item-0-group-1-option-0",
+                    "name_zh": "正常冰",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-0-group-1-option-1",
+                    "name_zh": "少冰",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-0-group-1-option-2",
+                    "name_zh": "去冰",
+                    "price_delta_cents": 0
+                  }
+                ]
+              },
+              {
+                "id": "tea-moon-item-0-group-2",
+                "name_zh": "糖度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "tea-moon-item-0-group-2-option-0",
+                    "name_zh": "正常糖",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-0-group-2-option-1",
+                    "name_zh": "半糖",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-0-group-2-option-2",
+                    "name_zh": "无糖",
+                    "price_delta_cents": 0
+                  }
+                ]
+              },
+              {
+                "id": "tea-moon-item-0-group-3",
+                "name_zh": "加料",
+                "min_select": 0,
+                "max_select": 2,
+                "options": [
+                  {
+                    "id": "tea-moon-item-0-group-3-option-0",
+                    "name_zh": "珍珠",
+                    "price_delta_cents": 75
+                  },
+                  {
+                    "id": "tea-moon-item-0-group-3-option-1",
+                    "name_zh": "椰果",
+                    "price_delta_cents": 75
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tea-moon-item-1",
+            "name_zh": "茉莉奶绿",
+            "name_en": "Jasmine tea",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": 25,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "tea-moon-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "tea-moon-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "tea-moon-item-1-group-1",
+                "name_zh": "冰量",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "tea-moon-item-1-group-1-option-0",
+                    "name_zh": "正常冰",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-1-group-1-option-1",
+                    "name_zh": "少冰",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-1-group-1-option-2",
+                    "name_zh": "去冰",
+                    "price_delta_cents": 0
+                  }
+                ]
+              },
+              {
+                "id": "tea-moon-item-1-group-2",
+                "name_zh": "糖度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "tea-moon-item-1-group-2-option-0",
+                    "name_zh": "正常糖",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-1-group-2-option-1",
+                    "name_zh": "半糖",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-1-group-2-option-2",
+                    "name_zh": "无糖",
+                    "price_delta_cents": 0
+                  }
+                ]
+              },
+              {
+                "id": "tea-moon-item-1-group-3",
+                "name_zh": "加料",
+                "min_select": 0,
+                "max_select": 2,
+                "options": [
+                  {
+                    "id": "tea-moon-item-1-group-3-option-0",
+                    "name_zh": "珍珠",
+                    "price_delta_cents": 75
+                  },
+                  {
+                    "id": "tea-moon-item-1-group-3-option-1",
+                    "name_zh": "椰果",
+                    "price_delta_cents": 75
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tea-moon-item-2",
+            "name_zh": "芋泥奶茶",
+            "name_en": "Taro tea",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": 28,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "tea-moon-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "tea-moon-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              },
+              {
+                "id": "tea-moon-item-2-group-1",
+                "name_zh": "冰量",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "tea-moon-item-2-group-1-option-0",
+                    "name_zh": "正常冰",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-2-group-1-option-1",
+                    "name_zh": "少冰",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-2-group-1-option-2",
+                    "name_zh": "去冰",
+                    "price_delta_cents": 0
+                  }
+                ]
+              },
+              {
+                "id": "tea-moon-item-2-group-2",
+                "name_zh": "糖度",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "tea-moon-item-2-group-2-option-0",
+                    "name_zh": "正常糖",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-2-group-2-option-1",
+                    "name_zh": "半糖",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tea-moon-item-2-group-2-option-2",
+                    "name_zh": "无糖",
+                    "price_delta_cents": 0
+                  }
+                ]
+              },
+              {
+                "id": "tea-moon-item-2-group-3",
+                "name_zh": "加料",
+                "min_select": 0,
+                "max_select": 2,
+                "options": [
+                  {
+                    "id": "tea-moon-item-2-group-3-option-0",
+                    "name_zh": "珍珠",
+                    "price_delta_cents": 75
+                  },
+                  {
+                    "id": "tea-moon-item-2-group-3-option-1",
+                    "name_zh": "椰果",
+                    "price_delta_cents": 75
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tea-moon-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "tea-moon-item-3",
+            "name_zh": "柠檬茶",
+            "name_en": "Lemon tea",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": 31,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "tea-moon-item-4",
+            "name_zh": "红豆奶茶",
+            "name_en": "Red bean tea",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": 34,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "tea-moon-item-5",
+            "name_zh": "桃桃果茶",
+            "name_en": "Peach tea",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": 37,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shawarma-sunset",
+    "name_zh": "落日卷饼站",
+    "name_en": "Sunset Shawarma",
+    "cuisine": "本地特色",
+    "category": "本地特色",
+    "neighborhood": "Kensington",
+    "image_url": "",
+    "rating": 4.5,
+    "eta_min": 25,
+    "eta_max": 35,
+    "delivery_fee_cents": 499,
+    "late_night": true,
+    "sort_order": 8,
+    "sections": [
+      {
+        "id": "shawarma-sunset-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "shawarma-sunset-item-0",
+            "name_zh": "鸡肉卷",
+            "name_en": "Chicken shawarma",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "shawarma-sunset-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "shawarma-sunset-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "shawarma-sunset-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "shawarma-sunset-item-1",
+            "name_zh": "牛肉卷",
+            "name_en": "Beef shawarma",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "shawarma-sunset-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "shawarma-sunset-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "shawarma-sunset-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "shawarma-sunset-item-2",
+            "name_zh": "鹰嘴豆卷",
+            "name_en": "Falafel wrap",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "shawarma-sunset-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "shawarma-sunset-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "shawarma-sunset-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shawarma-sunset-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "shawarma-sunset-item-3",
+            "name_zh": "鸡肉饭",
+            "name_en": "Chicken rice",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "shawarma-sunset-item-4",
+            "name_zh": "鹰嘴豆泥",
+            "name_en": "Hummus",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "shawarma-sunset-item-5",
+            "name_zh": "薯条",
+            "name_en": "Fries",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "poutine-cloud",
+    "name_zh": "肉汁小云站",
+    "name_en": "Gravy Cloud",
+    "cuisine": "本地特色",
+    "category": "本地特色",
+    "neighborhood": "Downtown",
+    "image_url": "",
+    "rating": 4.6,
+    "eta_min": 15,
+    "eta_max": 25,
+    "delivery_fee_cents": 299,
+    "late_night": true,
+    "sort_order": 9,
+    "sections": [
+      {
+        "id": "poutine-cloud-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "poutine-cloud-item-0",
+            "name_zh": "经典肉汁薯条",
+            "name_en": "Classic poutine",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "poutine-cloud-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "poutine-cloud-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "poutine-cloud-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "poutine-cloud-item-1",
+            "name_zh": "蘑菇肉汁薯条",
+            "name_en": "Mushroom poutine",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "poutine-cloud-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "poutine-cloud-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "poutine-cloud-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "poutine-cloud-item-2",
+            "name_zh": "牛肉肉汁薯条",
+            "name_en": "Beef poutine",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "poutine-cloud-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "poutine-cloud-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "poutine-cloud-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "poutine-cloud-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "poutine-cloud-item-3",
+            "name_zh": "芝士薯条",
+            "name_en": "Cheese fries",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "poutine-cloud-item-4",
+            "name_zh": "烤土豆",
+            "name_en": "Roasted potato",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "poutine-cloud-item-5",
+            "name_zh": "凉拌卷心菜",
+            "name_en": "Slaw",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bacon-sunrise",
+    "name_zh": "日出培根小铺",
+    "name_en": "Sunrise Peameal",
+    "cuisine": "本地特色",
+    "category": "本地特色",
+    "neighborhood": "Downtown",
+    "image_url": "",
+    "rating": 4.7,
+    "eta_min": 20,
+    "eta_max": 30,
+    "delivery_fee_cents": 399,
+    "late_night": false,
+    "sort_order": 10,
+    "sections": [
+      {
+        "id": "bacon-sunrise-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "bacon-sunrise-item-0",
+            "name_zh": "玉米粉培根三明治",
+            "name_en": "Peameal sandwich",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "bacon-sunrise-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "bacon-sunrise-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "bacon-sunrise-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "bacon-sunrise-item-1",
+            "name_zh": "鸡蛋培根包",
+            "name_en": "Egg sandwich",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "bacon-sunrise-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "bacon-sunrise-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "bacon-sunrise-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "bacon-sunrise-item-2",
+            "name_zh": "芝士培根包",
+            "name_en": "Cheese sandwich",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "bacon-sunrise-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "bacon-sunrise-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "bacon-sunrise-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bacon-sunrise-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "bacon-sunrise-item-3",
+            "name_zh": "早餐拼盘",
+            "name_en": "Breakfast plate",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "bacon-sunrise-item-4",
+            "name_zh": "烤土豆",
+            "name_en": "Hash browns",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "bacon-sunrise-item-5",
+            "name_zh": "橙汁",
+            "name_en": "Orange juice",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "patty-island",
+    "name_zh": "小岛酥饼屋",
+    "name_en": "Island Patty",
+    "cuisine": "本地特色",
+    "category": "本地特色",
+    "neighborhood": "Scarborough",
+    "image_url": "",
+    "rating": 4.8,
+    "eta_min": 25,
+    "eta_max": 35,
+    "delivery_fee_cents": 499,
+    "late_night": true,
+    "sort_order": 11,
+    "sections": [
+      {
+        "id": "patty-island-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "patty-island-item-0",
+            "name_zh": "牛肉酥饼",
+            "name_en": "Beef patty",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "patty-island-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "patty-island-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "patty-island-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "patty-island-item-1",
+            "name_zh": "鸡肉酥饼",
+            "name_en": "Chicken patty",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "patty-island-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "patty-island-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "patty-island-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "patty-island-item-2",
+            "name_zh": "蔬菜酥饼",
+            "name_en": "Vegetable patty",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "patty-island-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "patty-island-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "patty-island-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "patty-island-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "patty-island-item-3",
+            "name_zh": "咖喱鸡饭",
+            "name_en": "Curry chicken",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "patty-island-item-4",
+            "name_zh": "椰香饭",
+            "name_en": "Coconut rice",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "patty-island-item-5",
+            "name_zh": "姜汁饮",
+            "name_en": "Ginger drink",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pizza-comet",
+    "name_zh": "彗星披萨工房",
+    "name_en": "Comet Pizza",
+    "cuisine": "披萨",
+    "category": "披萨",
+    "neighborhood": "Annex",
+    "image_url": "",
+    "rating": 4.5,
+    "eta_min": 15,
+    "eta_max": 25,
+    "delivery_fee_cents": 299,
+    "late_night": true,
+    "sort_order": 12,
+    "sections": [
+      {
+        "id": "pizza-comet-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "pizza-comet-item-0",
+            "name_zh": "芝士披萨",
+            "name_en": "Cheese pizza",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "pizza-comet-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "pizza-comet-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pizza-comet-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pizza-comet-item-1",
+            "name_zh": "辣肠披萨",
+            "name_en": "Pepperoni pizza",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "pizza-comet-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "pizza-comet-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pizza-comet-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pizza-comet-item-2",
+            "name_zh": "蔬菜披萨",
+            "name_en": "Veggie pizza",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "pizza-comet-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "pizza-comet-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pizza-comet-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pizza-comet-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "pizza-comet-item-3",
+            "name_zh": "蘑菇披萨",
+            "name_en": "Mushroom pizza",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "pizza-comet-item-4",
+            "name_zh": "蒜香面包",
+            "name_en": "Garlic bread",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "pizza-comet-item-5",
+            "name_zh": "凯撒沙拉",
+            "name_en": "Caesar salad",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "burger-paper",
+    "name_zh": "纸飞机汉堡",
+    "name_en": "Paper Plane Burger",
+    "cuisine": "汉堡",
+    "category": "汉堡",
+    "neighborhood": "Kensington",
+    "image_url": "",
+    "rating": 4.6,
+    "eta_min": 20,
+    "eta_max": 30,
+    "delivery_fee_cents": 399,
+    "late_night": false,
+    "sort_order": 13,
+    "sections": [
+      {
+        "id": "burger-paper-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "burger-paper-item-0",
+            "name_zh": "经典牛肉汉堡",
+            "name_en": "Beef burger",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "burger-paper-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "burger-paper-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "burger-paper-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "burger-paper-item-1",
+            "name_zh": "双层芝士汉堡",
+            "name_en": "Double burger",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "burger-paper-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "burger-paper-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "burger-paper-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "burger-paper-item-2",
+            "name_zh": "鸡肉汉堡",
+            "name_en": "Chicken burger",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "burger-paper-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "burger-paper-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "burger-paper-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "burger-paper-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "burger-paper-item-3",
+            "name_zh": "蘑菇汉堡",
+            "name_en": "Mushroom burger",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "burger-paper-item-4",
+            "name_zh": "薯条",
+            "name_en": "Fries",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "burger-paper-item-5",
+            "name_zh": "洋葱圈",
+            "name_en": "Onion rings",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chicken-seoul",
+    "name_zh": "首尔小纸船",
+    "name_en": "Seoul Paper Boat",
+    "cuisine": "韩餐",
+    "category": "韩餐",
+    "neighborhood": "North York",
+    "image_url": "",
+    "rating": 4.7,
+    "eta_min": 25,
+    "eta_max": 35,
+    "delivery_fee_cents": 499,
+    "late_night": true,
+    "sort_order": 14,
+    "sections": [
+      {
+        "id": "chicken-seoul-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "chicken-seoul-item-0",
+            "name_zh": "甜辣炸鸡",
+            "name_en": "Sweet spicy chicken",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "chicken-seoul-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "chicken-seoul-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "chicken-seoul-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "chicken-seoul-item-1",
+            "name_zh": "蒜香炸鸡",
+            "name_en": "Garlic chicken",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "chicken-seoul-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "chicken-seoul-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "chicken-seoul-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "chicken-seoul-item-2",
+            "name_zh": "原味炸鸡",
+            "name_en": "Original chicken",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "chicken-seoul-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "chicken-seoul-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "chicken-seoul-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chicken-seoul-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "chicken-seoul-item-3",
+            "name_zh": "炒年糕",
+            "name_en": "Tteokbokki",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "chicken-seoul-item-4",
+            "name_zh": "紫菜饭团",
+            "name_en": "Rice balls",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "chicken-seoul-item-5",
+            "name_zh": "腌萝卜",
+            "name_en": "Pickled radish",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pho-lantern",
+    "name_zh": "小灯越南粉",
+    "name_en": "Lantern Pho",
+    "cuisine": "越南粉",
+    "category": "越南粉",
+    "neighborhood": "Spadina",
+    "image_url": "",
+    "rating": 4.8,
+    "eta_min": 15,
+    "eta_max": 25,
+    "delivery_fee_cents": 299,
+    "late_night": true,
+    "sort_order": 15,
+    "sections": [
+      {
+        "id": "pho-lantern-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "pho-lantern-item-0",
+            "name_zh": "牛肉河粉",
+            "name_en": "Beef pho",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "pho-lantern-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "pho-lantern-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pho-lantern-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pho-lantern-item-1",
+            "name_zh": "鸡肉河粉",
+            "name_en": "Chicken pho",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "pho-lantern-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "pho-lantern-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pho-lantern-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "pho-lantern-item-2",
+            "name_zh": "素河粉",
+            "name_en": "Vegetable pho",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "pho-lantern-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "pho-lantern-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "pho-lantern-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pho-lantern-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "pho-lantern-item-3",
+            "name_zh": "鲜虾春卷",
+            "name_en": "Shrimp rolls",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "pho-lantern-item-4",
+            "name_zh": "炸春卷",
+            "name_en": "Fried rolls",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "pho-lantern-item-5",
+            "name_zh": "越南咖啡",
+            "name_en": "Vietnamese coffee",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ramen-rain",
+    "name_zh": "雨点拉面屋",
+    "name_en": "Raindrop Ramen",
+    "cuisine": "日餐",
+    "category": "日餐",
+    "neighborhood": "Annex",
+    "image_url": "",
+    "rating": 4.5,
+    "eta_min": 20,
+    "eta_max": 30,
+    "delivery_fee_cents": 399,
+    "late_night": false,
+    "sort_order": 16,
+    "sections": [
+      {
+        "id": "ramen-rain-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "ramen-rain-item-0",
+            "name_zh": "豚骨拉面",
+            "name_en": "Tonkotsu ramen",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "ramen-rain-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "ramen-rain-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "ramen-rain-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ramen-rain-item-1",
+            "name_zh": "味噌拉面",
+            "name_en": "Miso ramen",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "ramen-rain-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "ramen-rain-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "ramen-rain-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "ramen-rain-item-2",
+            "name_zh": "酱油拉面",
+            "name_en": "Shoyu ramen",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "ramen-rain-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "ramen-rain-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "ramen-rain-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ramen-rain-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "ramen-rain-item-3",
+            "name_zh": "素拉面",
+            "name_en": "Vegetable ramen",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "ramen-rain-item-4",
+            "name_zh": "煎饺",
+            "name_en": "Gyoza",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "ramen-rain-item-5",
+            "name_zh": "毛豆",
+            "name_en": "Edamame",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tart-little",
+    "name_zh": "小甜角黄油塔",
+    "name_en": "Little Sweet Corner",
+    "cuisine": "甜品",
+    "category": "甜品",
+    "neighborhood": "Downtown",
+    "image_url": "",
+    "rating": 4.6,
+    "eta_min": 25,
+    "eta_max": 35,
+    "delivery_fee_cents": 499,
+    "late_night": true,
+    "sort_order": 17,
+    "sections": [
+      {
+        "id": "tart-little-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "tart-little-item-0",
+            "name_zh": "黄油塔",
+            "name_en": "Butter tart",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "tart-little-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "tart-little-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tart-little-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tart-little-item-1",
+            "name_zh": "核桃塔",
+            "name_en": "Walnut tart",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "tart-little-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "tart-little-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tart-little-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "tart-little-item-2",
+            "name_zh": "巧克力蛋糕",
+            "name_en": "Chocolate cake",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "tart-little-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "tart-little-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "tart-little-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tart-little-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "tart-little-item-3",
+            "name_zh": "芝士蛋糕",
+            "name_en": "Cheesecake",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "tart-little-item-4",
+            "name_zh": "苹果派",
+            "name_en": "Apple pie",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "tart-little-item-5",
+            "name_zh": "香草曲奇",
+            "name_en": "Vanilla cookie",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": null,
+            "image_url": "",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  }
+]
