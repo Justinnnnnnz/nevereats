@@ -3550,5 +3550,313 @@
         ]
       }
     ]
+  },
+  {
+    "id": "mcdonalds-toronto",
+    "name_zh": "麦当劳（模拟店铺）",
+    "name_en": "McDonald's",
+    "cuisine": "汉堡",
+    "category": "汉堡",
+    "neighborhood": "Downtown",
+    "image_url": "/images/catalog/mcdonalds-toronto.webp",
+    "rating": 4.7,
+    "eta_min": 15,
+    "eta_max": 25,
+    "delivery_fee_cents": 299,
+    "late_night": true,
+    "sort_order": 18,
+    "sections": [
+      {
+        "id": "mcdonalds-toronto-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "mcdonalds-toronto-item-0",
+            "name_zh": "双层牛肉芝士堡",
+            "name_en": "Double beef cheeseburger",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": null,
+            "image_url": "/images/catalog/mcdonalds-toronto-item-0.webp",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "mcdonalds-toronto-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "mcdonalds-toronto-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "mcdonalds-toronto-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "mcdonalds-toronto-item-1",
+            "name_zh": "香酥鸡腿堡",
+            "name_en": "Crispy chicken sandwich",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": null,
+            "image_url": "/images/catalog/mcdonalds-toronto-item-1.webp",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "mcdonalds-toronto-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "mcdonalds-toronto-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "mcdonalds-toronto-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "mcdonalds-toronto-item-2",
+            "name_zh": "鱼排芝士堡",
+            "name_en": "Fish sandwich",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": null,
+            "image_url": "/images/catalog/mcdonalds-toronto-item-2.webp",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "mcdonalds-toronto-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "mcdonalds-toronto-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "mcdonalds-toronto-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mcdonalds-toronto-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "mcdonalds-toronto-item-3",
+            "name_zh": "经典薯条",
+            "name_en": "Classic fries",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": null,
+            "image_url": "/images/catalog/mcdonalds-toronto-item-3.webp",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "mcdonalds-toronto-item-4",
+            "name_zh": "麦乐鸡块",
+            "name_en": "Chicken nuggets",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": null,
+            "image_url": "/images/catalog/mcdonalds-toronto-item-4.webp",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "mcdonalds-toronto-item-5",
+            "name_zh": "香草奶昔",
+            "name_en": "Vanilla milkshake",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": null,
+            "image_url": "/images/catalog/mcdonalds-toronto-item-5.webp",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chick-fil-a-toronto",
+    "name_zh": "Chick-fil-A（模拟店铺）",
+    "name_en": "Chick-fil-A",
+    "cuisine": "汉堡",
+    "category": "汉堡",
+    "neighborhood": "North York",
+    "image_url": "/images/catalog/chick-fil-a-toronto.webp",
+    "rating": 4.8,
+    "eta_min": 20,
+    "eta_max": 30,
+    "delivery_fee_cents": 399,
+    "late_night": false,
+    "sort_order": 19,
+    "sections": [
+      {
+        "id": "chick-fil-a-toronto-section-0",
+        "name_zh": "招牌精选",
+        "sort_order": 0,
+        "items": [
+          {
+            "id": "chick-fil-a-toronto-item-0",
+            "name_zh": "经典鸡肉三明治",
+            "name_en": "Chicken sandwich",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1299,
+            "cny_reference_price": null,
+            "image_url": "/images/catalog/chick-fil-a-toronto-item-0.webp",
+            "popular": true,
+            "option_groups": [
+              {
+                "id": "chick-fil-a-toronto-item-0-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "chick-fil-a-toronto-item-0-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "chick-fil-a-toronto-item-0-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "chick-fil-a-toronto-item-1",
+            "name_zh": "辣味鸡肉三明治",
+            "name_en": "Spicy chicken sandwich",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1449,
+            "cny_reference_price": null,
+            "image_url": "/images/catalog/chick-fil-a-toronto-item-1.webp",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "chick-fil-a-toronto-item-1-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "chick-fil-a-toronto-item-1-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "chick-fil-a-toronto-item-1-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "chick-fil-a-toronto-item-2",
+            "name_zh": "烤鸡三明治",
+            "name_en": "Grilled chicken sandwich",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 1599,
+            "cny_reference_price": null,
+            "image_url": "/images/catalog/chick-fil-a-toronto-item-2.webp",
+            "popular": false,
+            "option_groups": [
+              {
+                "id": "chick-fil-a-toronto-item-2-group-0",
+                "name_zh": "规格",
+                "min_select": 1,
+                "max_select": 1,
+                "options": [
+                  {
+                    "id": "chick-fil-a-toronto-item-2-group-0-option-0",
+                    "name_zh": "标准",
+                    "price_delta_cents": 0
+                  },
+                  {
+                    "id": "chick-fil-a-toronto-item-2-group-0-option-1",
+                    "name_zh": "大份",
+                    "price_delta_cents": 250
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chick-fil-a-toronto-section-1",
+        "name_zh": "小食与搭配",
+        "sort_order": 1,
+        "items": [
+          {
+            "id": "chick-fil-a-toronto-item-3",
+            "name_zh": "华夫薯条",
+            "name_en": "Waffle fries",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 499,
+            "cny_reference_price": null,
+            "image_url": "/images/catalog/chick-fil-a-toronto-item-3.webp",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "chick-fil-a-toronto-item-4",
+            "name_zh": "烤鸡沙拉",
+            "name_en": "Grilled chicken salad",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 699,
+            "cny_reference_price": null,
+            "image_url": "/images/catalog/chick-fil-a-toronto-item-4.webp",
+            "popular": false,
+            "option_groups": []
+          },
+          {
+            "id": "chick-fil-a-toronto-item-5",
+            "name_zh": "柠檬饮",
+            "name_en": "Lemonade",
+            "description_zh": "虚构菜单，认真满足你的想象。",
+            "price_cents": 899,
+            "cny_reference_price": null,
+            "image_url": "/images/catalog/chick-fil-a-toronto-item-5.webp",
+            "popular": false,
+            "option_groups": []
+          }
+        ]
+      }
+    ]
   }
 ]

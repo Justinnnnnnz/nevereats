@@ -1,5 +1,6 @@
 import random
 import time
+import unicodedata
 from collections import Counter, defaultdict, deque
 from datetime import datetime, timezone
 from typing import Annotated
@@ -73,6 +74,14 @@ def health() -> dict[str, str]:
     return {"status": "ok"}
 
 
+def search_key(value: str) -> str:
+    return "".join(
+        char
+        for char in unicodedata.normalize("NFKC", value).casefold()
+        if char.isalnum()
+    )
+
+
 @app.get("/v1/restaurants")
 def restaurants(s: DB, g: Guest, category: str | None = None, q: str = ""):
     rows = s.exec(select(Restaurant).order_by(Restaurant.sort_order)).all()
@@ -88,7 +97,9 @@ def restaurants(s: DB, g: Guest, category: str | None = None, q: str = ""):
                 for i in section["items"]
             )
         )
-        if (not category or r.category == category) and q.lower() in haystack.lower():
+        if (not category or r.category == category) and search_key(q) in search_key(
+            haystack
+        ):
             result.append(data)
     return result
 

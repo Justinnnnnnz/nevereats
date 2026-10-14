@@ -502,5 +502,61 @@
   {
     "id": "tart-little-item-5",
     "prompt": "Use case: product-mockup. Asset type: original food-delivery menu item photograph. Subject: Vanilla cookie (香草曲奇), an accurate appetizing individual dish from Little Sweet Corner's cuisine. Style: realistic appetizing food photography with natural texture, warm soft daylight. Scene: clean cream or wooden tabletop, tasteful unbranded ceramic tableware. Composition: one clearly centered dish, three-quarter overhead close-up with full serving visible. No text, logos, people or watermarks. Make the food preparation visually accurate."
+  },
+  {
+    "id": "mcdonalds-toronto",
+    "prompt": "Use case: product-mockup. Asset type: fictional food delivery menu shop-cover photograph for the simulated 麦当劳（模拟店铺） (English name McDonald's). Subject: a generic unbranded fast-food meal featuring Double beef cheeseburger, Crispy chicken sandwich, Fish sandwich. Warm soft daylight, photorealistic food photography, cream tabletop, landscape cover composition. No logos, branded packaging, people, text or watermark."
+  },
+  {
+    "id": "mcdonalds-toronto-item-0",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu-item photo in the simulated 麦当劳（模拟店铺） (McDonald's) menu. Subject: one accurate appetizing serving of Double beef cheeseburger, centered on plain unbranded ceramic tableware, warm soft daylight, three-quarter overhead close-up. No logos, branded packaging, text, people or watermark."
+  },
+  {
+    "id": "mcdonalds-toronto-item-1",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu-item photo in the simulated 麦当劳（模拟店铺） (McDonald's) menu. Subject: one accurate appetizing serving of Crispy chicken sandwich, centered on plain unbranded ceramic tableware, warm soft daylight, three-quarter overhead close-up. No logos, branded packaging, text, people or watermark."
+  },
+  {
+    "id": "mcdonalds-toronto-item-2",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu-item photo in the simulated 麦当劳（模拟店铺） (McDonald's) menu. Subject: one accurate appetizing serving of Fish sandwich, centered on plain unbranded ceramic tableware, warm soft daylight, three-quarter overhead close-up. No logos, branded packaging, text, people or watermark."
+  },
+  {
+    "id": "mcdonalds-toronto-item-3",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu-item photo in the simulated 麦当劳（模拟店铺） (McDonald's) menu. Subject: one accurate appetizing serving of Classic fries, centered on plain unbranded ceramic tableware, warm soft daylight, three-quarter overhead close-up. No logos, branded packaging, text, people or watermark."
+  },
+  {
+    "id": "mcdonalds-toronto-item-4",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu-item photo in the simulated 麦当劳（模拟店铺） (McDonald's) menu. Subject: one accurate appetizing serving of Chicken nuggets, centered on plain unbranded ceramic tableware, warm soft daylight, three-quarter overhead close-up. No logos, branded packaging, text, people or watermark."
+  },
+  {
+    "id": "mcdonalds-toronto-item-5",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu-item photo in the simulated 麦当劳（模拟店铺） (McDonald's) menu. Subject: one accurate appetizing serving of Vanilla milkshake, centered on plain unbranded ceramic tableware, warm soft daylight, three-quarter overhead close-up. No logos, branded packaging, text, people or watermark."
+  },
+  {
+    "id": "chick-fil-a-toronto",
+    "prompt": "Use case: product-mockup. Asset type: fictional food delivery menu shop-cover photograph for the simulated Chick-fil-A（模拟店铺） (English name Chick-fil-A). Subject: a generic unbranded fast-food meal featuring Chicken sandwich, Spicy chicken sandwich, Grilled chicken sandwich. Warm soft daylight, photorealistic food photography, cream tabletop, landscape cover composition. No logos, branded packaging, people, text or watermark."
+  },
+  {
+    "id": "chick-fil-a-toronto-item-0",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu-item photo in the simulated Chick-fil-A（模拟店铺） (Chick-fil-A) menu. Subject: one accurate appetizing serving of Chicken sandwich, centered on plain unbranded ceramic tableware, warm soft daylight, three-quarter overhead close-up. No logos, branded packaging, text, people or watermark."
+  },
+  {
+    "id": "chick-fil-a-toronto-item-1",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu-item photo in the simulated Chick-fil-A（模拟店铺） (Chick-fil-A) menu. Subject: one accurate appetizing serving of Spicy chicken sandwich, centered on plain unbranded ceramic tableware, warm soft daylight, three-quarter overhead close-up. No logos, branded packaging, text, people or watermark."
+  },
+  {
+    "id": "chick-fil-a-toronto-item-2",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu-item photo in the simulated Chick-fil-A（模拟店铺） (Chick-fil-A) menu. Subject: one accurate appetizing serving of Grilled chicken sandwich, centered on plain unbranded ceramic tableware, warm soft daylight, three-quarter overhead close-up. No logos, branded packaging, text, people or watermark."
+  },
+  {
+    "id": "chick-fil-a-toronto-item-3",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu-item photo in the simulated Chick-fil-A（模拟店铺） (Chick-fil-A) menu. Subject: one accurate appetizing serving of Waffle fries, centered on plain unbranded ceramic tableware, warm soft daylight, three-quarter overhead close-up. No logos, branded packaging, text, people or watermark."
+  },
+  {
+    "id": "chick-fil-a-toronto-item-4",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu-item photo in the simulated Chick-fil-A（模拟店铺） (Chick-fil-A) menu. Subject: one accurate appetizing serving of Grilled chicken salad, centered on plain unbranded ceramic tableware, warm soft daylight, three-quarter overhead close-up. No logos, branded packaging, text, people or watermark."
+  },
+  {
+    "id": "chick-fil-a-toronto-item-5",
+    "prompt": "Use case: product-mockup. Asset type: fictional food-delivery menu-item photo in the simulated Chick-fil-A（模拟店铺） (Chick-fil-A) menu. Subject: one accurate appetizing serving of Lemonade, centered on plain unbranded ceramic tableware, warm soft daylight, three-quarter overhead close-up. No logos, branded packaging, text, people or watermark."
   }
 ]

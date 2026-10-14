@@ -16,7 +16,7 @@ def test_catalog_image_coverage():
             *[item for section in restaurant["sections"] for item in section["items"]],
         ]
     ]
-    assert len(entities) == 126
+    assert len(entities) == 140
     paths = [entity["image_url"] for entity in entities]
     assert len(set(paths)) == len(entities)
     hashes = set()
@@ -34,4 +34,4 @@ def test_catalog_image_coverage():
         data = (root / "web/public" / url.removeprefix("/")).read_bytes()
         assert data[:4] == b"RIFF" and data[8:12] == b"WEBP"
         card_hashes.add(hashlib.sha256(data).hexdigest())
-    assert len(card_hashes) == 18
+    assert len(card_hashes) == 20

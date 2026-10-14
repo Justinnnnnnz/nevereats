@@ -274,6 +274,36 @@ entries = [
             "香草曲奇 Vanilla cookie",
         ],
     ),
+    (
+        "mcdonalds-toronto",
+        "麦当劳（模拟店铺）",
+        "McDonald's",
+        "汉堡",
+        "Downtown",
+        [
+            "双层牛肉芝士堡 Double beef cheeseburger",
+            "香酥鸡腿堡 Crispy chicken sandwich",
+            "鱼排芝士堡 Fish sandwich",
+            "经典薯条 Classic fries",
+            "麦乐鸡块 Chicken nuggets",
+            "香草奶昔 Vanilla milkshake",
+        ],
+    ),
+    (
+        "chick-fil-a-toronto",
+        "Chick-fil-A（模拟店铺）",
+        "Chick-fil-A",
+        "汉堡",
+        "North York",
+        [
+            "经典鸡肉三明治 Chicken sandwich",
+            "辣味鸡肉三明治 Spicy chicken sandwich",
+            "烤鸡三明治 Grilled chicken sandwich",
+            "华夫薯条 Waffle fries",
+            "烤鸡沙拉 Grilled chicken salad",
+            "柠檬饮 Lemonade",
+        ],
+    ),
 ]
 rows = []
 for idx, (slug, zh, en, category, hood, names) in enumerate(entries):

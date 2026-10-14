@@ -44,6 +44,10 @@ def seed(s: Session):
 
 
 if __name__ == "__main__":
+    rows = json.loads((Path(__file__).parents[1] / "seed/restaurants.json").read_text())
     with Session(engine) as session:
         seed(session)
-    print("Seeded 18 fictional restaurants")
+    print(
+        f"Seeded {len(rows)} restaurants "
+        f"({len(rows) - 2} fictional, 2 simulated brand stores)"
+    )

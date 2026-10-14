@@ -59,7 +59,7 @@ set +a
 .venv/bin/python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 
-seed 可重复执行，提供 18 家虚构餐厅，每家 2 个分区、6 道菜。API 文档：[本地 Swagger](http://localhost:8000/docs)。
+seed 可重复执行，提供 18 家虚构餐厅，以及麦当劳和 Chick-fil-A 两家明确标注的模拟店铺；每家 2 个分区、6 道菜。API 文档：[本地 Swagger](http://localhost:8000/docs)。
 
 ```sh
 curl -f http://localhost:8000/v1/health
@@ -214,8 +214,8 @@ NEXT_PUBLIC_API_URL=/v1 npm run start -- --hostname 0.0.0.0 --port 3003
 
 ## 商家与餐品图片
 
-18 家虚构商家和 108 道餐品各有独立的原创 AI 食物图片，保存在 `web/public/images/catalog/`。来源说明和提示词在同目录上一级的 `LICENSES.md` 和 `catalog-prompts.json`。图片是模拟菜单示意图。
+20 家商家和 120 道餐品各有独立的原创 AI 食物图片（其中两家为用户指定的品牌模拟店铺），保存在 `web/public/images/catalog/`。来源说明和提示词在同目录上一级的 `LICENSES.md` 和 `catalog-prompts.json`。图片是模拟菜单示意图。
 
-图片路径由 `api/seed/build_catalog.py` 生成并写入 seed JSON；更新后运行 `cd api && .venv/bin/python -m app.seed` 即可同步数据库。前端负责提供图片文件，API 返回相对路径。首页先显示构建时的公开 seed 菜单，再由 API 刷新，使用另行裁剪的 18 张卡片缩略图并提前加载首屏封面；商家页保留完整大图。Next.js Image 按显示尺寸优化、延迟加载，PWA 只在实际查看图片时缓存。更新原图后，在 web 运行 `npm run images:thumbnails` 可重建缩略图（使用 Next.js 已有的 sharp，不新增依赖）；菜单或图片更新后重新运行 `npm run build`，以同步首屏数据。
+图片路径由 `api/seed/build_catalog.py` 生成并写入 seed JSON；更新后运行 `cd api && .venv/bin/python -m app.seed` 即可同步数据库。前端负责提供图片文件，API 返回相对路径。首页先显示构建时的公开 seed 菜单，再由 API 刷新，使用另行裁剪的 20 张卡片缩略图并提前加载首屏封面；商家页保留完整大图。Next.js Image 按显示尺寸优化、延迟加载，PWA 只在实际查看图片时缓存。更新原图后，在 web 运行 `npm run images:thumbnails` 可重建缩略图（使用 Next.js 已有的 sharp，不新增依赖）；菜单或图片更新后重新运行 `npm run build`，以同步首屏数据。
 
-`api/tests/test_images.py` 检查 126 个独立路径、真实 WebP 文件及内容无重复；端到端测试检查菜单图片加载和选菜弹窗大图。
+`api/tests/test_images.py` 检查 140 个独立路径、真实 WebP 文件及内容无重复；端到端测试检查菜单图片加载和选菜弹窗大图。
