@@ -36,3 +36,11 @@
 - shadcn/Radix bottom sheet 有标题、focus trap 和关闭按钮；菜单选项、数量、人民币参考价格、跨餐厅确认和动画购物车 bar。
 - 前端 lint、4 项 tests 和 build、后端 lint/9 项 tests/compileall 通过；前后端服务启动响应正常。
 - 快捷“宿舍”和“公司”使用多伦多示例坐标；无需传入真实地址。真正的设备/浏览器兼容性在 Milestone 7 和人工测试中验证。
+
+## Milestone 4 — 完成
+
+- 前后端费用函数使用 shared/fee-cases.json 验证，所有金额按整数分计算，百分比 half-up。
+- 结账含地址、配送选项、小费选择/自定义、费用说明、失效优惠码与模拟体验告知。
+- 空气支付仅原创云钱包图案和扫描/对勾动效，无真实支付字段；创建订单包含 client_total_cents 且不含地址或坐标。
+- 前端 lint、8 项 tests、production build，后端 lint/9 项 tests/compileall 通过；服务 health 与结账页响应正常。
+- NEXT_PUBLIC_HST_PERCENT 和后端 HST_PERCENT 必须保持一致；不一致时后端拒绝订单。

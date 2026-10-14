@@ -72,5 +72,49 @@
     "local": "本地特色",
     "dessert": "甜品",
     "late": "宵夜"
+  },
+  "checkout": {
+    "title": "确认这份快乐",
+    "empty": "购物车还空着，先选几道菜吧。",
+    "back": "回首页",
+    "delivery": "模拟配送",
+    "standard": "标准配送",
+    "express": "加急配送 +$2.99 · 时间缩短 40%",
+    "tip": "给想象中的骑手一点心意",
+    "custom": "自定义",
+    "customAmount": "小费金额（CAD）",
+    "invalidTip": "请输入 0–1000 的金额，最多两位小数。",
+    "sadCourier": "😢 骑手：没关系的…（假装不在意）",
+    "coupon": "优惠码",
+    "apply": "试试优惠码",
+    "expired": "这个券已过期（它从来就没生效过）",
+    "payment": "支付方式",
+    "pretendPay": "空气支付 Pretend Pay",
+    "pay": "空气支付 {price}",
+    "scanning": "正在连接你的想象力…",
+    "paid": "已从你的想象力余额扣款 {price}",
+    "error": "订单未创建成功，请检查连接或价格后重试。",
+    "orderCreated": "下单成功",
+    "loading": "正在加载订单…",
+    "fees": {
+      "subtotal_cents": "小计",
+      "delivery_fee_cents": "配送费",
+      "service_fee_cents": "服务费",
+      "small_order_fee_cents": "小额订单费",
+      "express_fee_cents": "加急费",
+      "tax_cents": "HST",
+      "tip_cents": "小费",
+      "total_cents": "总计"
+    },
+    "explanations": {
+      "subtotal_cents": "菜品与选项加价乘以数量。",
+      "delivery_fee_cents": "餐厅的模拟配送费用。",
+      "service_fee_cents": "小计的 15%，最低 $2，最高 $7。",
+      "small_order_fee_cents": "小计低于 $15 时收取 $2.50。",
+      "express_fee_cents": "模拟加急费 $2.99。",
+      "tax_cents": "应税费用按配置的安省 HST 税率计算，默认 13%。",
+      "tip_cents": "按小计百分比或自定义金额计算。",
+      "total_cents": "所有费用之和；不会扣真实的钱。"
+    }
   }
 }
