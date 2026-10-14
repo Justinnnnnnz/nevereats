@@ -121,3 +121,8 @@
 - 前端 lint、14 项单元测试和 production build 通过；后端 lint、10 项测试和 compileall 通过。Chrome 在实际局域网预览验证 375px、430px 无横向溢出。
 - 已将 20 家同步至本机数据库；手机预览为 `http://10.0.0.17:3003`。真实手机仍建议用户亲自查看；该地址要求 Mac 和手机在同一 Wi-Fi 且 Mac 保持运行。
 - 未增加依赖、未更改环境文件；提交检查排除 token、环境文件、虚拟环境和缓存。
+
+## Wi-Fi restaurant preview recovery — 2026-10-14
+- Reproduced the direct restaurant page getting stuck before guest initialization on both localhost and the Wi-Fi address. A clean restart of the generated development output restored hydration; the running API remained healthy.
+- Allowed only the host's assigned IPv4 addresses and localhost as Next.js development origins, restoring the Wi-Fi hot-reload connection without a wildcard.
+- Added a fresh-guest direct restaurant URL/reload E2E check. Verified the actual Wi-Fi URL in Chromium and WebKit at 375px; both loaded all six menu items.

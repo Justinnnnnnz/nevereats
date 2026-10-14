@@ -1,4 +1,11 @@
 import {test,expect} from '@playwright/test';
+test('direct restaurant link initializes a fresh guest',async({page})=>{
+ await page.goto('/restaurants/spadina-cloud');
+ await expect(page.getByRole('heading',{name:'Spadina 云朵麻辣烫',exact:true})).toBeVisible();
+ await expect(page.locator('.menu-item')).toHaveCount(6);
+ await page.reload();
+ await expect(page.getByRole('heading',{name:'Spadina 云朵麻辣烫',exact:true})).toBeVisible();
+});
 test('quick address → options → pretend pay → tracking → savings → reorder',async({page},testInfo)=>{
  await page.route('https://api.mapbox.com/**',route=>route.abort());
  let requestBody:Record<string,unknown>|undefined;
