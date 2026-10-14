@@ -14,6 +14,15 @@
 5. 在 `PROGRESS.md` 里追加一段：完成了什么、做了哪些决定、有哪些已知问题。
 6. 直接开始下一个 milestone。
 
+## 日常开发规则
+- 我每发一条消息完成一个功能或修改，做完后就 commit 一次。
+- 一个 commit 只包含一个功能。如果一条消息里有多个功能，分开 commit。
+- commit 前运行相关的 lint、tests 和 build，全部通过才 commit。
+- commit message 用英文写清楚做了什么，例如 `Add McDonald's simulated shop`。
+- commit 前检查暂存区，不能包含 .env、.env.local、token、.venv、node_modules 或 .nosync 缓存文件。
+- 完成后告诉我 commit hash 和一句话总结。
+- 不要 push，不要部署。
+
 ## 必须停下来问我的情况
 - 需要添加 SPEC.md 里没有列出、也不是所选框架标准配套的 dependency。
 - SPEC.md 里有互相矛盾、或者会明显影响产品方向的地方。
